@@ -229,11 +229,10 @@ Developed by **Mobz Development**
 
 ![Mobzey](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge)
 
-
-![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-ff66cc?style=for-the-badge)`   |
-
+![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-ff66cc?style=for-the-badge)
 
 
+---
 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
