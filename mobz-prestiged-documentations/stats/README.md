@@ -1,3 +1,7 @@
+
+* [Back](README.md)
+
+  
 # All stats
 
 | **Category**                | **Stat Key**                      | **Description**                 | **Example**                         |
