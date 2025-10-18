@@ -154,7 +154,7 @@ Full list includes:
 
 (See full code in the Table of Contents Exports API.)
 
-[Server exports](README.md#server-side)
+[Server exports](#server-side)
 
 ---
 
