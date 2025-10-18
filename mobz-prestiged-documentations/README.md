@@ -155,7 +155,7 @@ Full list includes:
 (See full code in the Table of Contents Exports API.)
 
 
-* [Server Exports](api/README.md#server-exports)
+* [Server Exports](api/README.md#server-side)
 ---
 
 ## Client Exports Reference
