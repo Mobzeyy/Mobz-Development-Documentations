@@ -230,13 +230,7 @@ Developed by **Mobz Development**
 ![Mobzey](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge)
 
 
-| Badge                                                                                                       | Markdown                                                                                                      |
-| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| ![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Development-purple?style=for-the-badge)         | `![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Development-purple?style=for-the-badge)`         |
-| ![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Creative%20Team-blueviolet?style=for-the-badge) | `![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Creative%20Team-blueviolet?style=for-the-badge)` |
-| ![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Official%20Project-8A2BE2?style=for-the-badge)  | `![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Official%20Project-8A2BE2?style=for-the-badge)`  |
-| ![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-ff66cc?style=for-the-badge)   | `![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-ff66cc?style=for-the-badge)`   |
-| ![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Community%20Team-ff1493?style=for-the-badge)    | `![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Community%20Team-ff1493?style=for-the-badge)`    |
+![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-ff66cc?style=for-the-badge)`   |
 
 
 
