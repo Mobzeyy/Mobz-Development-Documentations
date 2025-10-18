@@ -232,6 +232,18 @@ Developed by **Mobz Development**
 ![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-ff66cc?style=for-the-badge)
 
 
+
+
+
+![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Development-purple?style=for-the-badge)
+![FiveM](https://img.shields.io/badge/Framework-FiveM-orange?style=for-the-badge&logo=fivem)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0.0-yellow?style=for-the-badge)
+
+
+
+
+
 ---
 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
