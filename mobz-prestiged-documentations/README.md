@@ -154,8 +154,8 @@ Full list includes:
 
 (See full code in the Table of Contents Exports API.)
 
-[Server exports](#api/README.md#server-side)
 
+* [Server Exports](api/README.md#server-exports)
 ---
 
 ## Client Exports Reference
@@ -170,7 +170,7 @@ exports["mobz-prestiged"]:ClearBuffs_cl(id)
 
 (See full code in the Table of Contents Exports API.)
 
-* [Client-Exports-Reference-API](#client-exports-reference-api)
+* [Client exports](#api/README.md#client-side)
 
 
 ---
