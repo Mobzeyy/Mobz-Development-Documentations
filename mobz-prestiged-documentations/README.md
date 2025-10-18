@@ -154,7 +154,7 @@ Full list includes:
 
 (See full code in the Table of Contents Exports API.)
 
-[Server exports](https://github.com/Mobzeyy/mobz-prestiged-docs/blob/main/api/README.md#Server-Side)
+[Server exports](README.md#server-side)
 
 ---
 
