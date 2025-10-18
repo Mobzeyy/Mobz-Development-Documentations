@@ -170,7 +170,7 @@ exports["mobz-prestiged"]:ClearBuffs_cl(id)
 
 (See full code in the Table of Contents Exports API.)
 
-* [Client exports](#api/README.md#client-side)
+* [Client exports](api/README.md#client-side)
 
 
 ---
