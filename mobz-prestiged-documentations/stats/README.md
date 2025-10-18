@@ -1,3 +1,5 @@
+# All stats
+
 | **Category**                | **Stat Key**                      | **Description**                 | **Example**                         |
 | --------------------------- | --------------------------------- | ------------------------------- | ----------------------------------- |
 | **Core**                    | identifier                        | Player unique identifier        | `"license:xyz123"`                  |
