@@ -204,7 +204,7 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 (Full table continues in All Stats.)
 
-* [All stats](api/README.md#all-stats)
+* [All stats](stats/README.md#all-stats)
 
 ---
 
