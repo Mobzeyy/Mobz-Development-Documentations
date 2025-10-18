@@ -445,3 +445,6 @@ JSON file (stats.json)
 | 💊 **/heal**        | Command that increases the prestige health stat                |
 | ❤️ **/myhealth**    | Shows player’s current prestige health stat                    |
 | 💾 **Auto-save**    | Saves periodically using your existing persistence system      |
+
+
+[Top of page](#All-stats)
