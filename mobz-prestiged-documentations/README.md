@@ -186,7 +186,8 @@ PrestigeAPI.UpdateTokens("license:1234567890abcdef")
 
 Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
-1. [All stats](#all-stats)
+* [All stats](tables/README.md#all-stats)
+  
 ---
 
 ## Player Stats Reference
@@ -203,8 +204,7 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 (Full table continues in All Stats.)
 
-1. [All stats](#all-stats)
-
+* [All stats](tables/README.md#all-stats)
 
 ---
 
