@@ -1,5 +1,5 @@
 
-* [Back](mobz-prestiged-documentations/README.md)
+* [Back](#README.md)
 
   
 # All stats
