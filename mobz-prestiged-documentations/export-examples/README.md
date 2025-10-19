@@ -7,8 +7,10 @@
 # ️Basic Shield Syntax
 
 * A GitHub badge is just an image with a link in Markdown:
-
+  
+```
 	[![Alt Text](Image URL)](Link URL)
+```
 
 > Alt Text → This is the text shown if the image doesn’t load.
 > Image URL → URL for your badge image (we’ll use shields.io
@@ -16,11 +18,10 @@
 
 - Link URL → Where clicking the badge goes.
 
-
 **Example:**
-
+```
 [![Config Tables](https://img.shields.io/badge/Tables-Config%20Data-orange?style=for-the-badge)](tables/README.md)
-
+```
 
 > Alt Text: Config Tables
 > Image URL: https://img.shields.io/badge/Tables-Config%20Data-orange?style=for-the-badge
@@ -28,7 +29,7 @@
 
 ---
 
-# ️⃣ Customizing the badge via Shields.io
+# ️Customizing the badge via Shields.io
 
 > You can go to https://shields.io/
 > to create a custom badge.
@@ -41,6 +42,7 @@
 > Style → for-the-badge (big rectangle), flat, flat-square, plastic, etc.
 > Shields.io will generate a URL like:
 
+---
 https://img.shields.io/badge/Tables-Config%20Data-orange?style=for-the-badge
 
 ---
