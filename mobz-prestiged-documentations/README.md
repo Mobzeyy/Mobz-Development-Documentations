@@ -23,11 +23,6 @@ Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
 
 </div>
 
-
-### 🧩 API Reference
-[![Server Exports](https://img.shields.io/badge/🖥️_Server_Exports-2980b9?style=for-the-badge)](api/README.md#server-side)
-[![Client Exports](https://img.shields.io/badge/💻_Client_Exports-27ae60?style=for-the-badge)](api/README.md#client-side)
-
 ### 📊 Data & Tables
 [![Stats](https://img.shields.io/badge/📊_Stats-00b894?style=for-the-badge)](stats/README.md)
 [![Tables](https://img.shields.io/badge/📋_Tables-00cec9?style=for-the-badge)](tables/README.md)
@@ -161,7 +156,7 @@ Full list includes:
 (See full code in API Sever Full Reference)
 
 
- ### 🧩 API Server Full Reference
+### 🧩 API Server Full Reference
 [![Server Exports](https://img.shields.io/badge/🖥️_Server_Exports-2980b9?style=for-the-badge)](exports/README.md#server-side)
 
 ---
@@ -178,10 +173,8 @@ exports["mobz-prestiged"]:ClearBuffs_cl(id)
 
 (See full code in the API Client Full Reference)
 
-### 🧩 API Server Full Reference
-
-[![Client Exports](https://img.shields.io/badge/🖥️_Client_Exports-2980b9?style=for-the-badge)](exports/README.md#client-side)
-
+### 🧩 API Client Full Reference
+[![Client Exports](https://img.shields.io/badge/💻_Client_Exports-27ae60?style=for-the-badge)](exports/README.md#client-side)
 ---
 
 ## PrestigeAPI Advanced Usage
