@@ -55,13 +55,6 @@ Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
 [![Stats](https://img.shields.io/badge/📊_Stats-00b894?style=for-the-badge)](stats/README.md)
 [![Tables](https://img.shields.io/badge/📋_Tables-00cec9?style=for-the-badge)](tables/README.md)
 
----
-
-[![⬆️ Back to Top](https://img.shields.io/badge/⬆️_Back_to_Top-8A2BE2?style=for-the-badge)](#top)
-[![🏠 Main Docs](https://img.shields.io/badge/🏠_Main_Documentation-8A2BE2?style=for-the-badge)](../README.md)
-
-
-![Mobz Custom](https://custom-icon-badges.demolab.com/badge/Mobz%20Prestiged-Ultimate%20Framework-8A2BE2?logo=https://i.postimg.cc/RZrBFgCH/ZOMBIEWAR.png&logoColor=white&style=for-the-badge)
 
 ---
 
@@ -327,4 +320,6 @@ Licensed under **MIT License**
 
 </div>
 
----
+[![⬆️ Back to Top](https://img.shields.io/badge/⬆️_Back_to_Top-8A2BE2?style=for-the-badge)](#🏆-Mobz-Prestiged)
+[![🏠 Main Docs](https://img.shields.io/badge/🏠_Main_Documentation-8A2BE2?style=for-the-badge)](../README.md)
+
