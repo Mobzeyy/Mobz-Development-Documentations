@@ -244,67 +244,6 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 ---
 
-## Notes and Best Practices
-- Always use `EnsurePlayerDataServer()` before editing data  
-- Save changes via `SavePlayer()`  
-- Tokens are derived automatically from level  
-- Other scripts can expand stats freely  
-
----
-
-## License & Credits
-**MIT License**  
-Developed by **Mobz Development**  
-[Tebex Store → mobz.tebex.io](https://mobz.tebex.io/)
-
----
-
-> © 2025 Mobz Development. All rights reserved.
-
-![Mobz](https://i.postimg.cc/RZrBFgCH/ZOMBIEWAR.png)
-
-
-![Mobz](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge)
-![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-8A2BE2?style=for-the-badge)
-
-
-
-
-
-
-
-
-
-
-
-![FiveM](https://img.shields.io/badge/Framework-FiveM-orange?style=for-the-badge&logo=fivem)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.0.0-yellow?style=for-the-badge)
-
-
-
-
-
-
-
-
-
-<div align="center">
-
-# 🧩 Mobz Development Documentation  
-### Your Complete Reference for `mobz-prestiged`  
-
-[![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Team-8A2BE2?style=for-the-badge)](README.md)
-[![API Docs](https://img.shields.io/badge/API-Documentation-8A2BE2?style=for-the-badge)](api/README.md)
-[![Stats](https://img.shields.io/badge/Player-Stats-00b894?style=for-the-badge)](stats/README.md)
-[![Tables](https://img.shields.io/badge/Tables-Reference-orange?style=for-the-badge)](tables/README.md)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Us-5865F2?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/YOURINVITE)
-[![Tebex](https://img.shields.io/badge/Tebex-Store-00b894?style=for-the-badge)](https://mobz.tebex.io)
-
-</div>
-
----
-
 ## 📚 Table of Contents
 
 | 📁 Section | 📝 Description | 🔗 Link |
@@ -329,8 +268,6 @@ Developed by **Mobz Development**
 [![All Stats](https://img.shields.io/badge/Stats-All%20Stats-00b894?style=for-the-badge)](stats/README.md#all-stats)
 [![Config Tables](https://img.shields.io/badge/Tables-Config%20Data-orange?style=for-the-badge)](tables/README.md)
 
-
-
 ---
 
 ## 🧾 About Mobz Development
@@ -338,21 +275,20 @@ Developed by **Mobz Development**
 > A modular, open framework for prestige progression, player stats,  
 > and game-wide expansion — designed for flexibility and integration.
 
----
+## Notes and Best Practices
+- Always use `EnsurePlayerDataServer()` before editing data  
+- Save changes via `SavePlayer()`  
+- Tokens are derived automatically from level  
+- Other scripts can expand stats freely  
+
 
 ---
 
-## 🧾 About Mobz Development
-
-> A modular, open framework for prestige progression, player stats,  
-> and game-wide expansion — designed for flexibility and integration.
-
----
 
 ## ⚖️ License
 
 Licensed under **MIT License**  
-© 2025 **Mobz & Mez Development**
+© 2025 **Mobz Development** All rights reserved.
 
 ---
 
@@ -369,6 +305,8 @@ Licensed under **MIT License**
 <!-- Team / Credits -->
 [![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-8A2BE2?style=for-the-badge&logo=github)](README.md#license--credits)
 [![Mobz Development](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge)](README.md)
+
+---
 
 <!-- Frameworks -->
 [![QB-Core](https://img.shields.io/badge/Framework-QB--Core-orange?style=for-the-badge)](https://github.com/qbcore-framework/qb-core)
