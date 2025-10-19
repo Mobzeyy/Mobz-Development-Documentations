@@ -16,8 +16,7 @@
 
 | 📁 Script | 📝 Description | 🔗 Link |
 |------------|----------------|---------|
-| 🏠 **Mobz Prestiged**            | 
-| [Open Main Docs](mobz-prestiged-documentations/README.md) |
+| 🏠 **Mobz Prestiged**       |         | [Open Main Docs](mobz-prestiged-documentations/README.md) |
 
 
 
