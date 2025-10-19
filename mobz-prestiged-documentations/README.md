@@ -272,11 +272,15 @@ Licensed under **MIT License**
 ### *The Ultimate Prestige, XP, and Progression Framework for FiveM*
 
 ---
+[![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Team-8A2BE2?style=for-the-badge)](https://github.com/Mobzeyy)
+[![Tebex](https://img.shields.io/badge/Tebex-Store-00b894?style=for-the-badge)](https://mobz.tebex.io)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-5865F2?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/YOURINVITE)
 
-[![Tables](https://img.shields.io/badge/Mobz💜Developers--00cec9?style=for-the-badge)](tables/README.md)
+
+
 
 <!-- Team / Credits -->
-[![Mobz & Mez](https://img.shields.io/badge/Mobz20%20%26%Mez-Lead%20Developers-8A2BE2?style=for-the-badge&logo=github)](README.md#license--credits)
+[![Mobz & Mez](https://img.shields.io/badge/Mobz%20%20%26%Mez-Lead%20Developers-8A2BE2?style=for-the-badge&logo=github)](README.md#license--credits)
 [![Mobz Development](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge)](README.md)
 
 ---
