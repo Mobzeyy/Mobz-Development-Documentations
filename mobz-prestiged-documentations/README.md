@@ -190,7 +190,7 @@ Full list includes:
 (See full code in the Table of Contents Exports API.)
 
 
-* [Server Exports](api/README.md#server-side)
+* [Server Exports](all-exports-table/README.md#🖥️-Server-Exports-Full-Reference)
 ---
 
 ## Client Exports Reference
