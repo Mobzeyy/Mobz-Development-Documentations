@@ -266,14 +266,14 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 ## 🧾 About Mobz Development
 
-> A modular, open framework for prestige progression, player stats,  
-> and game-wide expansion — designed for flexibility and integration.
+>> A modular, open framework for prestige progression, player stats,  
+>> and game-wide expansion — designed for flexibility and integration.
 
 ## Notes and Best Practices
-- Always use `EnsurePlayerDataServer()` before editing data  
-- Save changes via `SavePlayer()`  
-- Tokens are derived automatically from level  
-- Other scripts can expand stats freely  
+>> Always use `EnsurePlayerDataServer()` before editing data  
+>> Save changes via `SavePlayer()`  
+>> Tokens are derived automatically from level  
+>> Other scripts can expand stats freely  
 
 
 ---
