@@ -187,13 +187,9 @@ Full list includes:
 - Data Sync
 - Developer Tips
 
-(See full code in the Table of Contents Exports API.)
+(See full code in API Sever Full Reference)
 
-
-* [Server Exports](all-exports-table/README.md#🖥️-Server-Exports-Full-Reference)
-
-
- ### 🧩 API Full Reference
+ ### 🧩 API Server Full Reference
 [![Server Exports](https://img.shields.io/badge/🖥️_Server_Exports-2980b9?style=for-the-badge)](all-exports-table/README.md#server-side)
 
 ---
@@ -208,10 +204,10 @@ exports["mobz-prestiged"]:AddBuff_cl(id, "speed_boost", "🏎️ Speed Boost")
 exports["mobz-prestiged"]:ClearBuffs_cl(id)
 ```
 
-(See full code in the Table of Contents Exports API.)
+(See full code in the API Client Full Reference)
 
-* [Client exports](api/README.md#client-side)
-
+### 🧩 API Client Full Reference
+[![Server Exports](https://img.shields.io/badge/🖥️_Server_Exports-2980b9?style=for-the-badge)](all-exports-table/README.md#client-side)
 
 ---
 
