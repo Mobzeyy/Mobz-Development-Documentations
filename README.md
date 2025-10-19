@@ -1,6 +1,6 @@
-# Mobzeyy-Mobz-Development-Documentations
+# 🧩 Mobzeyy — Mobz Development Documentations
 
---- 
+---
 
 [![Mobz Prestiged Documentations](https://img.shields.io/badge/Mobz%20Prestiged-Documentations-orange?style=for-the-badge)](https://github.com/Mobzeyy/Mobz-Development-Documentations/tree/main/mobz-prestiged-documentations)
 
@@ -10,7 +10,7 @@
 
 | 📁 Script | 📝 Description | 🔗 Link |
 |------------|----------------|---------|
-| 🏠 **Mobz Prestiged** | The Ultimate Prestige, XP, and Progression Framework for FiveM  | [Open Main Docs](mobz-prestiged-documentations/README.md) |
+| 🏠 **Mobz Prestiged** | The Ultimate Prestige, XP, and Progression Framework for FiveM | [Open Main Docs](mobz-prestiged-documentations/README.md) |
 
 ---
 
@@ -28,13 +28,10 @@ Licensed under **MIT License**
 
 ---
 
-
-
-
 <div align="center">
 
 <!-- Logo -->
-<img src="https://i.postimg.cc/RZrBFgCH/ZOMBIEWAR.png" alt="Mobz Logo" width="180" style="border-radius:15px; margin-bottom:10px;" />
+<img src="https://i.postimg.cc/RZrBFgCH/ZOMBIEWAR.png" alt="Mobz Logo" width="200" style="border-radius:15px; margin-bottom:10px;" />
 
 # 🏆 **Mobz-Prestiged**
 ### *The Ultimate Prestige, XP, and Progression Framework for FiveM*
@@ -63,10 +60,13 @@ Licensed under **MIT License**
 
 </div>
 
+---
+
+## 🧠 Credits with Logo Badge (optional)
+
+If you want to add a **logo inside a badge**, you need to **encode the logo as a base64 image** or **host it as a simple `.svg`**, because Shields.io does not support direct `.png` links in `logo=`.
+
+✅ Correct method:
 
 
-[![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead_Developers-8A2BE2?style=for-the-badge&logo=https://i.postimg.cc/RZrBFgCH/ZOMBIEWAR.png)](README.md#license--credits)
-
-
-
-
+[![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-8A2BE2?style=for-the-badge&logo=github)](README.md#license--credits)
