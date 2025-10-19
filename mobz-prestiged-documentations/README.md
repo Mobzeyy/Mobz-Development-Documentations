@@ -336,6 +336,10 @@ Licensed under **MIT License**
 [![🛒 Tebex](https://img.shields.io/badge/🛒_Visit_Our_Store-00b894?style=for-the-badge)](https://mobz.tebex.io)
 
 ---
+?logo=mobz development
+
+[![Mobz Development](https://img.shields.io/badge/🚀%20Mobz_Development-Official-purple?style=for-the-badge)](README.md)
+
 
 **© 2025 Mobz & Mez Development**  
 *Crafted with 💜 by developers, for developers.*
