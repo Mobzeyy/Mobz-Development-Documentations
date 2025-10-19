@@ -61,6 +61,7 @@ Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
 [![🏠 Main Docs](https://img.shields.io/badge/🏠_Main_Documentation-8A2BE2?style=for-the-badge)](../README.md)
 
 
+![Mobz Custom](https://custom-icon-badges.demolab.com/badge/Mobz%20Prestiged-Ultimate%20Framework-8A2BE2?logo=https://i.postimg.cc/RZrBFgCH/ZOMBIEWAR.png&logoColor=white&style=for-the-badge)
 
 ---
 
