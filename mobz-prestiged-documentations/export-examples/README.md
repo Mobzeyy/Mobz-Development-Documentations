@@ -85,9 +85,10 @@ Clicking goes to tables/README.md in your repository.
 ### Clicking opens the Discord invite in a browser.
 
 ---
+https://github.com/Mobzeyy/Mobz-Development-Documentations/tree/main/mobz-prestiged-documentations
 
 
-[![Mobz Tables](https://img.shields.io/badge/Mobz-Tables%20Data-red?style=for-the-badge)](tables/README.md)
+[![Mobz Tables](https://img.shields.io/badge/Mobz-Tables%20Data-red?style=for-the-badge)]([tables/README.md](https://github.com/Mobzeyy/Mobz-Development-Documentations/tree/main/mobz-prestiged-documentations)
 
 
 > Alt T
