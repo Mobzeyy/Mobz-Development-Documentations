@@ -4,7 +4,7 @@
 ---
 
 
-1. ️⃣ Basic Shield Syntax
+# ️Basic Shield Syntax
 
 * A GitHub badge is just an image with a link in Markdown:
 
@@ -28,7 +28,7 @@
 
 ---
 
-2. ️⃣ Customizing the badge via Shields.io
+# ️⃣ Customizing the badge via Shields.io
 
 > You can go to https://shields.io/
 > to create a custom badge.
@@ -47,7 +47,7 @@ https://img.shields.io/badge/Tables-Config%20Data-orange?style=for-the-badge
 
 # 💡 Tip: Spaces must be %20 in URLs.
 
-3. ️⃣ Adding a link to your badge
+# ️Adding a link to your badge
 
 * Wrap the image in []() like this:
 
