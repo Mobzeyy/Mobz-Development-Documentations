@@ -327,9 +327,8 @@ Licensed under **MIT License**
 ### 🧭 Navigation & Links
 
 <!-- Primary Navigation -->
-[![⬆️ Back to Top](https://img.shields.io/badge/⬆️_Back_to_Top-9b59b6?style=for-the-badge)](#mobz-prestiged)
+[![⬆️ Back to Top](https://img.shields.io/badge/⬆️_Back_to_Top-9b59b6?style=for-the-badge)](#../mobz-prestiged-documentations/README.md)
 [![🏠 Main Docs](https://img.shields.io/badge/🏠_Main_Documentation-8e44ad?style=for-the-badge)](../README.md)
-[![📦 Scripts](https://img.shields.io/badge/📦_Script_Overview-6c5ce7?style=for-the-badge)](../mobz-prestiged-documentations/README.md)
 
 <!-- Community & Support -->
 [![💬 Discord](https://img.shields.io/badge/💬_Join_Our_Discord-5865F2?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/YOURINVITE)
