@@ -332,7 +332,7 @@ Licensed under **MIT License**
 [![🏠 Main Docs](https://img.shields.io/badge/🏠_Main_Documentation-8e44ad?style=for-the-badge)](../README.md)
 
 <!-- Community & Support -->
-[![💬 Discord](https://img.shields.io/badge/💬_Join_Our_Discord-5865F2?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/YOURINVITE)
+[![💬 Discord](https://img.shields.io/badge/💬_Join_Our_Discord-5865F2?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/a6qECrxuCg)
 [![🛒 Tebex](https://img.shields.io/badge/🛒_Visit_Our_Store-00b894?style=for-the-badge)](https://mobz.tebex.io)
 
 ---
