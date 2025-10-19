@@ -15,7 +15,7 @@
 
 | 📁 Script | 📝 Description | 🔗 Link |
 |------------|----------------|---------|
-| 🏠 **Mobz Prestiged** | Player progression  |         | [Open Main Docs](mobz-prestiged-documentations/README.md) |
+| 🏠 **Mobz Prestiged** | The Ultimate Prestige, XP, and Progression Framework for FiveM  | [Open Main Docs](mobz-prestiged-documentations/README.md) |
 
 
 
