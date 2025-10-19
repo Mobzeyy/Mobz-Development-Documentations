@@ -1,16 +1,12 @@
 # Mobzeyy-Mobz-Development-Documentations
-Mobzeyy/Mobz-Development-Documentations
-
 
 
 
 [![Mobz Prestiged Documentations](https://img.shields.io/badge/Mobz%20Prestiged-Documentations-orange?style=for-the-badge)](https://github.com/Mobzeyy/Mobz-Development-Documentations/tree/main/mobz-prestiged-documentations)
 
-
+---
 
 ## 📦 Script Documentations
-
-
 
 ### 🧩 API Reference
 [![Server Exports](mobz-prestiged-documentations/README.md)
@@ -18,9 +14,17 @@ Mobzeyy/Mobz-Development-Documentations
 
 
 
-| 📁 Section | 📝 Description | 🔗 Link |
+| 📁 Script | 📝 Description | 🔗 Link |
 |------------|----------------|---------|
-| 🏠 **Main Docs** | Overview of all features, setup & structure | [Open Main Docs](mobz-prestiged-documentations/README.md) |
+| 🏠 **Mobz Prestiged**            | 
+| [Open Main Docs](mobz-prestiged-documentations/README.md) |
+
+
+
+
+
+
+
 | ⚙️ **API Docs** | Full developer reference for server & client exports | [Go to API Docs](api/README.md) |
 | 🖥️ Server Exports | API functions for server-side scripts | [View Server Exports](api/README.md#server-exports) |
 | 💻 Client Exports | API functions for client-side scripts | [View Client Exports](api/README.md#client-exports) |
