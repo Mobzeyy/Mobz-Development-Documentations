@@ -162,7 +162,7 @@ Full list includes:
 
 
  ### 🧩 API Server Full Reference
-[![Server Exports](https://img.shields.io/badge/🖥️_Server_Exports-2980b9?style=for-the-badge)](api/README.md#server-side)
+[![Server Exports](https://img.shields.io/badge/🖥️_Server_Exports-2980b9?style=for-the-badge)](exports/README.md#server-side)
 
 ---
 
@@ -180,7 +180,7 @@ exports["mobz-prestiged"]:ClearBuffs_cl(id)
 
 ### 🧩 API Server Full Reference
 
-[![Client Exports](https://img.shields.io/badge/🖥️_Client_Exports-2980b9?style=for-the-badge)](api/README.md#client-side)
+[![Client Exports](https://img.shields.io/badge/🖥️_Client_Exports-2980b9?style=for-the-badge)](exports/README.md#client-side)
 
 ---
 
