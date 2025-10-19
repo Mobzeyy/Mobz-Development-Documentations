@@ -345,6 +345,8 @@ Licensed under **MIT License**
 [![Mobz Development](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge)](README.md)
 
 
+[![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-8A2BE2?style=for-the-badge&logo=?logo=mobz)](README.md#license--credits)
+[![Mobz Development](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge)](README.md)
 
 **© 2025 Mobz & Mez Development**  
 *Crafted with 💜 by developers, for developers.*
