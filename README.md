@@ -2,6 +2,7 @@
 Mobzeyy/Mobz-Development-Documentations
 
 
+[![Mobz Tables](https://img.shields.io/badge/Tables-Config%20Data-orange?style=for-the-badge)](https://github.com/Mobzeyy/Mobz-Development-Documentations/tree/main/mobz-prestiged-documentations)
 
 
 ## 📦 Script Documentations
