@@ -273,10 +273,10 @@ Licensed under **MIT License**
 
 ---
 
-[![Tables](https://img.shields.io/badge/💜 _Tables-00cec9?style=for-the-badge)](tables/README.md)
+[![Tables](https://img.shields.io/badge/Mobz💜Developers--00cec9?style=for-the-badge)](tables/README.md)
 
 <!-- Team / Credits -->
-[![Mobz & Mez](https://img.shields.io/badge/Mobz💜20%26%20Mez-Lead%20Developers-8A2BE2?style=for-the-badge&logo=github)](README.md#license--credits)
+[![Mobz & Mez](https://img.shields.io/badge/Mobz💜20%26%Mez-Lead%20Developers-8A2BE2?style=for-the-badge&logo=github)](README.md#license--credits)
 [![Mobz Development](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge)](README.md)
 
 ---
