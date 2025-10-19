@@ -39,7 +39,7 @@ Licensed under **MIT License**
 ---
 
 <!-- Team / Credits -->
-[![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-8A2BE2?style=for-the-badge)](README.md#license--credits)
+[![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-8A2BE2?style=for-the-badge&logo=github)](README.md#license--credits)
 [![Mobz Development](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge)](README.md)
 
 <!-- Frameworks -->
@@ -61,12 +61,3 @@ Licensed under **MIT License**
 </div>
 
 ---
-
-## 🧠 Credits with Logo Badge (optional)
-
-If you want to add a **logo inside a badge**, you need to **encode the logo as a base64 image** or **host it as a simple `.svg`**, because Shields.io does not support direct `.png` links in `logo=`.
-
-✅ Correct method:
-
-
-[![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-8A2BE2?style=for-the-badge&logo=github)](README.md#license--credits)
