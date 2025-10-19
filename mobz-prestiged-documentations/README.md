@@ -336,17 +336,6 @@ Licensed under **MIT License**
 [![🛒 Tebex](https://img.shields.io/badge/🛒_Visit_Our_Store-00b894?style=for-the-badge)](https://mobz.tebex.io)
 
 ---
-?logo=mobz development
-
-[![Mobz Development](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge&logo=https://i.postimg.cc/RZrBFgCH/zombie_war.png)](README.md)
-
-
-<img src="https://i.postimg.cc/RZrBFgCH/zombie_war.png" width="36" style="vertical-align:middle; margin-right:5px;" />
-[![Mobz Development](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge)](README.md)
-
-
-[![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-8A2BE2?style=for-the-badge&logo=?logo=mobz)](README.md#license--credits)
-[![Mobz Development](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge)](README.md)
 
 **© 2025 Mobz & Mez Development**  
 *Crafted with 💜 by developers, for developers.*
