@@ -9,26 +9,6 @@ Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
 ---
 
 ## 📑 Table of Contents
-1. [Overview](#overview)
-2. [Features](#features)
-   - [XP System and Prestige Overview](#xp-system-and-prestige-overview)
-   - [Rewards and Killstreaks](#rewards-and-killstreaks)
-   - [Mugshot UI](#mugshot-ui)
-   - [Discord Logs](#discord-logs)
-   - [Prestige Badges](#prestige-badges)
-   - [Admin Management](#admin-management)
-   - [Leaderboards](#leaderboards)
-   - [Full Sync](#full-sync)
-3. [API Reference](api/README.md)
-     - [Server Exports](api/README.md#Server-Side)
-     - [Client Exports](api/README.md#Client-Side)
-4. [Developer Tips](#developer-tips)
-5. [Notes and Best Practices](#notes-and-best-practices)
-6. [License & Credits](#license--credits)
-
-
-
-
 
 <div align="center">
 
@@ -42,9 +22,6 @@ Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
 [![License](https://img.shields.io/badge/⚖️_License-3498db?style=for-the-badge)](#license--credits)
 
 </div>
-
-
-
 
 
 ### 🧩 API Reference
@@ -183,8 +160,9 @@ Full list includes:
 
 (See full code in API Sever Full Reference)
 
+
  ### 🧩 API Server Full Reference
-[![Server Exports](https://img.shields.io/badge/🖥️_Server_Exports-2980b9?style=for-the-badge)](all-exports-table/README.md#server-side)
+[![Server Exports](https://img.shields.io/badge/🖥️_Server_Exports-2980b9?style=for-the-badge)](api/README.md#server-side)
 
 ---
 
@@ -200,8 +178,9 @@ exports["mobz-prestiged"]:ClearBuffs_cl(id)
 
 (See full code in the API Client Full Reference)
 
-### 🧩 API Client Full Reference
-[![Server Exports](https://img.shields.io/badge/🖥️_Server_Exports-2980b9?style=for-the-badge)](all-exports-table/README.md#client-side)
+### 🧩 API Server Full Reference
+
+[![Client Exports](https://img.shields.io/badge/🖥️_Client_Exports-2980b9?style=for-the-badge)](api/README.md#client-side)
 
 ---
 
@@ -216,7 +195,8 @@ PrestigeAPI.UpdateTokens("license:1234567890abcdef")
 
 Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
-* [All stats](tables/README.md)
+[![Client Exports](https://img.shields.io/badge/🖥️_Client_Exports-2980b9?style=for-the-badge)](api/README.md#client-side)
+
   
 ---
 
@@ -268,6 +248,8 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 >> A modular, open framework for prestige progression, player stats,  
 >> and game-wide expansion — designed for flexibility and integration.
+
+---
 
 ## Notes and Best Practices
 >> Always use `EnsurePlayerDataServer()` before editing data  
@@ -326,10 +308,14 @@ Licensed under **MIT License**
 
 ### 🧭 Navigation & Links
 
+---
+
 <!-- Primary Navigation -->
 [![⬆️ Back to Top](https://img.shields.io/badge/⬆️_Back_to_Top-9b59b6?style=for-the-badge)](../mobz-prestiged-documentations/README.md)
 
 [![🏠 Main Docs](https://img.shields.io/badge/🏠_Main_Documentation-8e44ad?style=for-the-badge)](../README.md)
+
+---
 
 <!-- Community & Support -->
 [![💬 Discord](https://img.shields.io/badge/💬_Join_Our_Discord-5865F2?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/a6qECrxuCg)
