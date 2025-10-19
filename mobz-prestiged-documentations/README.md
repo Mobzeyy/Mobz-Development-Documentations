@@ -338,7 +338,9 @@ Licensed under **MIT License**
 ---
 ?logo=mobz development
 
-[![Mobz Development](https://img.shields.io/badge/🚀%20Mobz_Development-Official-purple?style=for-the-badge)](README.md)
+[![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead_Developers-8A2BE2?style=for-the-badge&logo=https://i.postimg.cc/RZrBFgCH/zombie_war.png)](README.md#license--credits)
+
+[![Mobz Development](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge&logo=https://i.postimg.cc/RZrBFgCH/zombie_war.png)](README.md)
 
 
 **© 2025 Mobz & Mez Development**  
