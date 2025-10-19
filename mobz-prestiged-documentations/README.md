@@ -191,6 +191,11 @@ Full list includes:
 
 
 * [Server Exports](all-exports-table/README.md#🖥️-Server-Exports-Full-Reference)
+
+
+ ### 🧩 API Full Reference
+[![Server Exports](https://img.shields.io/badge/🖥️_Server_Exports-2980b9?style=for-the-badge)](all-exports-table/README.md#server-side)
+
 ---
 
 ## Client Exports Reference
