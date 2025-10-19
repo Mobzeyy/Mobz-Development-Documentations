@@ -58,3 +58,21 @@ Licensed under **MIT License**
 ![Version](https://img.shields.io/badge/version-1.0.0-yellow)
 
 
+
+
+
+
+
+
+[![Mobz Development](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge&logo=https://i.postimg.cc/RZrBFgCH/ZOMBIEWAR.png)](README.md)
+
+
+[![Mobz Development](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge&logo=https://i.postimg.cc/RZrBFgCH/ZOMBIEWAR.png&logoWidth=25)](README.md)
+
+
+
+[![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead_Developers-8A2BE2?style=for-the-badge&logo=https://i.postimg.cc/RZrBFgCH/ZOMBIEWAR.png)](README.md#license--credits)
+
+
+
+
