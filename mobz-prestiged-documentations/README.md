@@ -174,6 +174,7 @@ exports["mobz-prestiged"]:ClearBuffs_cl(id)
 
 ### 🧩 API Client Full Reference
 [![Client Exports](https://img.shields.io/badge/💻_Client_Exports-27ae60?style=for-the-badge)](exports/README.md#client-side)
+
 ---
 
 ## PrestigeAPI Advanced Usage
@@ -187,7 +188,7 @@ PrestigeAPI.UpdateTokens("license:1234567890abcdef")
 
 Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
-[![Client Exports](https://img.shields.io/badge/🖥️_Client_Exports-2980b9?style=for-the-badge)](api/README.md#client-side)
+[![Client Exports](https://img.shields.io/badge/🖥️_Client_Exports-2980b9?style=for-the-badge)](exports/README.md#client-side)
 
   
 ---
@@ -206,7 +207,7 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 (Full table continues in All Stats.)
 
-* [All stats](stats/README.md#all-stats)
+* [All stats](player-stats/README.md#all-stats)
 
 ---
 
