@@ -43,17 +43,20 @@ Licensed under **MIT License**
 [![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-8A2BE2?style=for-the-badge&logo=github)](README.md#license--credits)
 [![Mobz Development](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge)](README.md)
 
+---
 <!-- Frameworks -->
 [![QB-Core](https://img.shields.io/badge/Framework-QB--Core-orange?style=for-the-badge)](https://github.com/qbcore-framework/qb-core)
 [![ESX](https://img.shields.io/badge/Framework-ESX-red?style=for-the-badge)](https://github.com/esx-framework/es_extended)
 [![Standalone](https://img.shields.io/badge/Standalone-Compatible-green?style=for-the-badge)](#overview)
 
+--- 
 <!-- Quick Actions -->
-[![Discord](https://img.shields.io/badge/Discord-Join%20Us-5865F2?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/YOURINVITE)
-[![Tebex](https://img.shields.io/badge/Tebex-Store-00b894?style=for-the-badge)](https://mobz.tebex.io)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-5865F2?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/jajVnex7Vq)
+[![Tebex](https://img.shields.io/badge/Tebex-Store-00b894?style=for-the-badge)](https://zombie-war.tebex.io)
 [![FiveM](https://img.shields.io/badge/FiveM-Framework-orange?style=for-the-badge&logo=fivem)](https://fivem.net)
 
 ---
+
 
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
