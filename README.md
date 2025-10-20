@@ -24,12 +24,6 @@
 
 ---
 
-## ⚖️ License
-
-Licensed under **MIT License**  
-© 2025 **Mobz & Mez Development**
-
----
 
 <div align="center">
 
@@ -65,3 +59,8 @@ Licensed under **MIT License**
 
 ---
 </div>
+
+## ⚖️ License
+
+Licensed under **MIT License**  
+© 2025 **Mobz & Mez Development**
