@@ -36,8 +36,6 @@ Licensed under **MIT License**
 <!-- Logo -->
 <img src="https://i.postimg.cc/RZrBFgCH/ZOMBIEWAR.png" alt="Mobz Logo" width="200" style="border-radius:15px; margin-bottom:10px;" />
 
-# 🏆 **Mobz-Prestiged**
-### *The Ultimate Prestige, XP, and Progression Framework for FiveM*
 
 ---
 
@@ -61,7 +59,6 @@ Licensed under **MIT License**
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 ![Version](https://img.shields.io/badge/Version-1.0.0-yellow?style=flat-square)
 
-</div>
 
 ---
 </div>
