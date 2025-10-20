@@ -1,6 +1,10 @@
 - [← Back to Main Docs](../README.md)
 
-[![← Back to Main Docs](https://img.shields.io/badge/← Back to Main Docs2980b9?style=for-the-badge)](../README.md)
+[![← Back to Main Docs](https://img.shields.io/badge/←_Back_to_Main_Docs-1db82f?style=for-the-badge&logo=github)](../README.md)
+
+
+[![← Back to Main Docs](https://img.shields.io/badge/←_Back_to_Main_Docs-1db82f?style=for-the-badge&logo=mobz-development)](../README.md)
+
 
   
 # 📝 Mobz-Prestiged Player Stats Cheatsheet
