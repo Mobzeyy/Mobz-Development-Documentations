@@ -14,11 +14,11 @@ Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
 
 [![Overview](https://img.shields.io/badge/📖_Overview-9b59b6?style=for-the-badge)](#overview)
 [![Features](https://img.shields.io/badge/⚙️_Features-8e44ad?style=for-the-badge)](#features)
-[![API](https://img.shields.io/badge/🧩_API_Reference-6c5ce7?style=for-the-badge)](api/README.md)
+[![API](https://img.shields.io/badge/🧩_API_Reference-6c5ce7?style=for-the-badge)](exports/README.md)
 [![Server Exports](https://img.shields.io/badge/🖥️_Server_Exports-2980b9?style=for-the-badge)](exports/README.md#server-side)
 [![Client Exports](https://img.shields.io/badge/💻_Client_Exports-27ae60?style=for-the-badge)](exports/README.md#client-side)
 [![Stats](https://img.shields.io/badge/📊_Stats-00b894?style=for-the-badge)](pkayer-stats/README.md)
-[![Tables](https://img.shields.io/badge/📋_Tables-00cec9?style=for-the-badge)](tables/README.md)
+[![Tables](https://img.shields.io/badge/📋_Tables-00cec9?style=for-the-badge)](all-exports-tables/README.md)
 [![License](https://img.shields.io/badge/⚖️_License-3498db?style=for-the-badge)](#license--credits)
 
 </div>
