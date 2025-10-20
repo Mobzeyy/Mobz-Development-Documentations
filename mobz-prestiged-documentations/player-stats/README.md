@@ -6,6 +6,9 @@
 [![← Back to Main Docs](https://img.shields.io/badge/←_Back_to_Main_Docs-1db82f?style=for-the-badge&logo=mobz-development)](../README.md)
 
 [![← Back to Main Docs](https://img.shields.io/badge/←_Back_to_Main_Docs-1db82f?style=for-the-badge&logo=mobz-developer)](../README.md)
+
+[![← Back to Main Docs](https://img.shields.io/badge/←_Back_to_Main_Docs-1db82f?style=for-the-badge&logo=mobz%20development)](../README.md)
+
   
 # 📝 Mobz-Prestiged Player Stats Cheatsheet
 
