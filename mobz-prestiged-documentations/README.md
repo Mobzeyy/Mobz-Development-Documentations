@@ -209,6 +209,8 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 * [All stats](player-stats/README.md#all-stats)
 
+[![All Stats](https://img.shields.io/badge/🖥️_All_Stats-9c4525?style=for-the-badge)](all-stats/README.md)
+
 ---
 
 ## 📚 Table of Contents
