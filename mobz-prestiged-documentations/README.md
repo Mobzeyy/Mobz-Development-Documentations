@@ -188,7 +188,7 @@ PrestigeAPI.UpdateTokens("license:1234567890abcdef")
 
 Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
-[![Client Exports](https://img.shields.io/badge/🖥️_Client_Exports-2980b9?style=for-the-badge)](exports/README.md#client-side)
+[![Main Source](https://img.shields.io/badge/🖥️_Main_Source-e81515?style=for-the-badge)](main-source/README.md)
 
   
 ---
