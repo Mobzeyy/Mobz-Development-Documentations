@@ -194,7 +194,7 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 # Advanced Usage	Custom API integration & expansion	Advanced 
 
-#####example:
+##### example:
 
 [![Metadata Stats](https://img.shields.io/badge/🖥️_Metadata_stats-e81515?style=for-the-badge)](metadata-stats/README.md)
 
