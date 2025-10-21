@@ -184,13 +184,20 @@ local PrestigeAPI = exports["mobz-prestiged"]:PrestigeAPI()
 local data = PrestigeAPI.GetFullStats("license:1234567890abcdef")
 PrestigeAPI.AddCash("license:1234567890abcdef", 500)
 PrestigeAPI.UpdateTokens("license:1234567890abcdef")
+
 ```
 
 Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 [![Main Source](https://img.shields.io/badge/🖥️_Main_Source-e81515?style=for-the-badge)](main-source/README.md)
 
-  
+
+# Advanced Usage	Custom API integration & expansion	Advanced 
+
+#####example:
+
+[![Metadata Stats](https://img.shields.io/badge/🖥️_Metadata_stats-e81515?style=for-the-badge)](metadata-stats/README.md)
+
 ---
 
 ## Player Stats Reference
