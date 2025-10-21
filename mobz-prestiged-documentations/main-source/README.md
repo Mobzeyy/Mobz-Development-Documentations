@@ -1,5 +1,9 @@
 # Source of truth - Access the API
 
+
+[![← Back to Main Docs](https://img.shields.io/badge/←_Back_to_Main_Docs-9c2590?style=for-the-badge&logo=mobz%20development)](../README.md#PrestigeAPI-Advanced-Usage)
+
+
 * You can access the exported API using:
 * 
 ```lua
