@@ -256,3 +256,117 @@ print(pdata.level) -- prints current level
 | Save_cl | Saves client data | Success boolean |
 | GiveRewardByRank_cl | Gives a reward based on rank | Success boolean |
 | GiveReward_cl | Gives a generic reward | Success boolean |
+
+
+---
+
+
+
+
+---
+
+# 🖥️ Mobz-Prestiged Exports (Server & Client)
+
+| Export                                              | Arguments                             | Returns | Description                                                                                  |
+| --------------------------------------------------- | ------------------------------------- | ------- | -------------------------------------------------------------------------------------------- |
+| `AddPoints_sv(identifier, amount)`                  | string, number                        | nil     | Add XP points to a player on the server.                                                     |
+| `RemovePoints_sv(identifier, amount)`               | string, number                        | nil     | Remove XP points from a player on the server.                                                |
+| `SetLevel_sv(identifier, level)`                    | string, number                        | nil     | Set player level directly on the server.                                                    |
+| `SaveProgress_sv(identifier)`                       | string                                | nil     | Save the player’s progression on the server.                                                |
+| `AddKill_sv(identifier, isNpc)`                     | string, bool                          | nil     | Add a kill for the player or NPC, updates killstreak.                                        |
+| `AddDeath_sv(identifier)`                           | string                                 | nil     | Add a death and reset the killstreak.                                                       |
+| `UnlockAchievement_sv(identifier, achievementName)` | string, string                        | nil     | Unlock a specific achievement for the player.                                               |
+| `UnlockTitle_sv(identifier, titleName)`             | string, string                        | nil     | Unlock a specific title for the player.                                                     |
+| `AddBuff_sv(identifier, buffName, label)`           | string, string, string                 | nil     | Add a buff to the player.                                                                   |
+| `RemoveBuff_sv(identifier, buffName)`               | string, string                        | nil     | Remove a buff from the player by name.                                                      |
+| `ClearBuffs_sv(identifier)`                         | string                                 | nil     | Clear all buffs from the player.                                                            |
+| `SetPrestige_sv(identifier, prestige)`              | string, number                        | nil     | Set player prestige directly on the server.                                                 |
+| `GetLevel_sv(identifier)`                           | string                                 | number  | Returns the player’s level.                                                                |
+| `GetPoints_sv(identifier)`                          | string                                 | number  | Returns the player’s points.                                                               |
+| `GetKills_sv(identifier)`                           | string                                 | number  | Returns the player’s kills.                                                                |
+| `GetNpcKills_sv(identifier)`                        | string                                 | number  | Returns the player’s NPC kills.                                                            |
+| `GetDeaths_sv(identifier)`                          | string                                 | number  | Returns the player’s deaths.                                                               |
+| `GetKillstreak_sv(identifier)`                      | string                                 | number  | Returns the player’s current killstreak.                                                   |
+| `GetAchievements_sv(identifier)`                    | string                                 | table   | Returns unlocked achievements for the player.                                              |
+| `GetTitles_sv(identifier)`                          | string                                 | table   | Returns unlocked titles for the player.                                                    |
+| `GetPlayerVisuals_sv(identifier)`                   | string                                 | table   | Returns foot effects, active labels, killstreak label, and buffs.                          |
+| `EnsurePlayerDataServer(identifier)`               | string                                 | table   | Returns full player data (main source of truth).                                           |
+| `LoadPlayer(identifier)`                             | string                                 | table   | Load player progression from saved data.                                                   |
+| `SavePlayer(identifier)`                             | string                                 | nil     | Save player progression to file/server.                                                    |
+| `SaveProgression()`                                 | nil                                    | nil     | Save all player progression to file/server.                                                |
+| `LoadProgression()`                                 | nil                                    | nil     | Load all player progression from file.                                                     |
+| `AddReputationXP(identifier, amount)`               | string, number                        | nil     | Add reputation XP to a player.                                                             |
+| `SetReputation(identifier, amount)`                 | string, number                        | nil     | Set player reputation directly.                                                            |
+| `GetReputation(identifier)`                          | string                                 | number  | Get the player’s current reputation.                                                      |
+| `GetPlayerJobGang(identifier)`                       | string                                 | table   | Returns current job/gang and ranks (supports QB-Core + ESX).                                |
+| `GetCraftingStats(identifier)`                       | string                                 | table   | Returns crafting stats (level, XP, items crafted/failed, best streak).                     |
+| `AddFailedCraft(identifier)`                         | string                                 | nil     | Increment failed crafts count.                                                            |
+| `AddCraftedItem(identifier)`                         | string                                 | nil     | Increment crafted items count.                                                            |
+| `AddHuntedAnimal(identifier)`                        | string                                 | nil     | Increment animals hunted count.                                                           |
+| `FailedHunt(identifier)`                              | string                                 | nil     | Increment failed hunts count.                                                             |
+| `GetHuntingStats(identifier)`                        | string                                 | table   | Returns hunting stats.                                                                    |
+| `GetDrivingStats(identifier)`                        | string                                 | table   | Returns driving stats (XP, stunts, accidents).                                           |
+| `AddDrivingStunt(identifier)`                         | string                                 | nil     | Add driving stunt XP.                                                                     |
+| `AddDrivingAccident(identifier)`                     | string                                 | nil     | Increment driving accidents count.                                                        |
+| `AddDrivingXP(identifier, amount)`                   | string, number                        | nil     | Add driving skill XP.                                                                    |
+| `RecordShotFired(identifier)`                         | string                                 | nil     | Increment shots fired count.                                                              |
+| `RecordShotHit(identifier)`                            | string                                 | nil     | Increment shots hit count.                                                                |
+| `RecordShotMissed(identifier)`                          | string                                 | nil     | Increment shots missed count.                                                            |
+| `GetTradesCompleted(identifier)`                       | string                                 | number  | Get trades completed.                                                                     |
+| `AddTradeCompleted(identifier)`                        | string                                 | nil     | Increment trades completed.                                                              |
+| `GetTradesCancelled(identifier)`                       | string                                 | number  | Get trades cancelled.                                                                     |
+| `AddTradeCancelled(identifier)`                        | string                                 | nil     | Increment trades cancelled.                                                              |
+| `GetAccuracyStats(identifier)`                          | string                                 | table   | Returns shots fired, shots hit, headshots, accuracy %, streaks.                            |
+| `GetBountiesClaimed(identifier)`                        | string                                 | number  | Get bounties claimed.                                                                     |
+| `AddBountyClaimed(identifier)`                          | string                                 | nil     | Increment bounties claimed.                                                              |
+| `GetBountiesPlaced(identifier)`                         | string                                 | number  | Get bounties placed.                                                                      |
+| `AddBountyPlaced(identifier)`                            | string                                 | nil     | Increment bounties placed.                                                               |
+| `AddObjectiveCompleted(identifier)`                     | string                                 | nil     | Increment objectives completed.                                                          |
+| `GetObjectivesCompleted(identifier)`                    | string                                 | number  | Get completed objectives count.                                                          |
+| `AddTaskCompleted(identifier)`                           | string                                 | nil     | Increment tasks completed.                                                              |
+| `GetTasksCompleted(identifier)`                          | string                                 | number  | Get completed tasks count.                                                              |
+| `AddBusinessOwned(identifier)`                           | string                                 | nil     | Increment businesses owned.                                                              |
+| `GetBusinessesOwned(identifier)`                         | string                                 | number  | Get number of businesses owned.                                                         |
+| `AddDuelWon(identifier)`                                 | string                                 | nil     | Increment duels won.                                                                    |
+| `AddHeadshot(identifier)`                                | string                                 | nil     | Increment headshots count.                                                               |
+| `AddShotHit(identifier)`                                  | string                                 | nil     | Increment shots hit.                                                                     |
+| `AddShotFired(identifier)`                                | string                                 | nil     | Increment shots fired.                                                                   |
+| `SetAccuracy(identifier, value)`                          | string, number                        | nil     | Set shooting accuracy %.                                                                  |
+| `GetAccuracy(identifier)`                                  | string                                 | number  | Returns shooting accuracy %.                                                             |
+| `GiveRewardByRank(identifier, rank)`                       | string, number                        | nil     | Give reward based on player rank.                                                        |
+| `GiveReward(identifier, rewardName)`                        | string, string                        | nil     | Give a specific reward.                                                                  |
+| `GetPlayerProgression(identifier)`                          | string                                 | table   | Returns full player progression.                                                         |
+| **Client Versions**                                     |                                       |         |                                                                                             |
+| `AddPoints_cl(identifier, amount)`                  | string, number                        | nil     | Add XP to a player (syncs to server).                                                    |
+| `RemovePoints_cl(identifier, amount)`               | string, number                        | nil     | Remove XP from a player (syncs to server).                                               |
+| `SetLevel_cl(identifier, level)`                    | string, number                        | nil     | Set player level directly (syncs to server).                                             |
+| `SaveProgress_cl(identifier)`                       | string                                 | nil     | Save current player progression to server.                                               |
+| `AddKill_cl(identifier, isNpc)`                     | string, bool                           | nil     | Add kill for player or NPC, updates killstreak locally.                                  |
+| `AddDeath_cl(identifier)`                           | string                                 | nil     | Add death and reset killstreak locally.                                                 |
+| `UnlockAchievement_cl(identifier, achievementName)` | string, string                        | nil     | Unlock a specific achievement locally.                                                  |
+| `UnlockTitle_cl(identifier, titleName)`             | string, string                        | nil     | Unlock a specific title locally.                                                       |
+| `SetMugshot_cl(identifier, mugshot)`                | string, string                        | nil     | Set a custom mugshot locally.                                                          |
+| `AddBuff_cl(identifier, buffName, label)`           | string, string, string                 | nil     | Add a buff to player locally.                                                          |
+| `RemoveBuff_cl(identifier, buffName)`               | string, string                        | nil     | Remove a buff locally by name.                                                         |
+| `ClearBuffs_cl(identifier)`                         | string                                 | nil     | Clear all buffs locally.                                                               |
+| `SetPrestige_cl(identifier, prestige)`              | string, number                        | nil     | Set player prestige locally.                                                           |
+| `GetLevel_cl(identifier)`                           | string                                 | number  | Returns player level locally.                                                          |
+| `GetPoints_cl(identifier)`                          | string                                 | number  | Returns player points locally.                                                         |
+| `GetKills_cl(identifier)`                           | string                                 | number  | Returns player kills locally.                                                          |
+| `GetNpcKills_cl(identifier)`                        | string                                 | number  | Returns player NPC kills locally.                                                      |
+| `GetDeaths_cl(identifier)`                          | string                                 | number  | Returns player deaths locally.                                                        |
+| `GetKillstreak_cl(identifier)`                      | string                                 | number  | Returns current killstreak locally.                                                   |
+| `GetAchievements_cl(identifier)`                    | string                                 | table   | Returns unlocked achievements locally.                                               |
+| `GetTitles_cl(identifier)`                          | string                                 | table   | Returns unlocked titles locally.                                                     |
+| `GetMugshot_cl(identifier)`                         | string                                 | string  | Returns mugshot path locally.                                                        |
+| `GetPlayerVisuals_cl(identifier)`                   | string                                 | table   | Returns foot effects + killstreak label locally.                                      |
+| `ToggleUI(identifier, state)`                        | string, bool                           | nil     | Show or hide client UI.                                                               |
+
+
+
+---
+
+
+[![← Back to Main Docs Server Side](https://img.shields.io/badge/←_Back_to_Main_Docs-9c2590?style=for-the-badge&logo=mobz%20development)](../README.md#Server-Exports-Reference)
+
+
