@@ -297,7 +297,7 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 ---
 
 <!-- Primary Navigation -->
-[![⬆️ Back to Top](https://img.shields.io/badge/⬆️_Back_to_Top-9b59b6?style=for-the-badge)](../README.md)
+[![⬆️ Back to Top](https://img.shields.io/badge/⬆️_Back_to_Top-9b59b6?style=for-the-badge)](README.md#top-of-page)
 
 ---
 
