@@ -64,7 +64,6 @@ Includes **dynamic UI**, **prestige badges**, **killstreak tracking**, **Discord
 - Prestige rewards, badges, and ranking logic  
 - Integrated **killstreak effects**, **glowing footsteps**, and **mugshot UI**
 - Admin panel with configurable permissions  
-- Ox_Lib leaderboard system  
 - Discord webhook integration  
 - Full server/client API exports for developers  
 - JSON persistence with automatic saving  
