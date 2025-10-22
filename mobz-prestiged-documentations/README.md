@@ -40,7 +40,7 @@
 
 | 📁 Section | 📝 Description | 🔗 Link |
 |------------|----------------|---------|
-| ⚙️ **Installation** | Please follow the installation steps carefully to ensure proper setup.| [Open Main Docs](_Installation/README.md) |
+| ⚙️ **Installation** | Please follow the installation steps carefully to ensure proper setup.| [Installation Steps](installation/README.md) |
 | 🏠 **Main Docs** | Overview of all features, setup & structure | [Open Main Docs](README.md#features) |
 | 🧩 **API Docs** | Full developer reference for server & client exports | [Go to API Docs](exports/README.md) |
 | 🖥️ Server Exports | API functions for server-side scripts | [View Server Exports](exports/README.md#server-side) |
