@@ -257,19 +257,6 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 [![Config Tables](https://img.shields.io/badge/Tables-Config%20Data-orange?style=for-the-badge)](table-stats/README.md)
 [![All Exports](https://img.shields.io/badge/All-Exports%20Data-yellow?style=for-the-badge)](all-exports-table/README.md)
 
----
-
-## 🧠 About Mobz Development
-
-> **Mobz Development** is powered by a shared vision — building modular, open-source frameworks that connect every part of gameplay.  
-> From prestige progression to player stats and crafting, our goal is to make development simpler, smarter, and more powerful.
-
-This project — and everything we’ve built together — exists because of **trust, dedication, and teamwork**.  
-A special thank you to **Mez**, who’s always had my back since day one. 💜  
-
-**© 2025 Mobz & Mez Development**  
-*Crafted with heart, by developers for developers.*
-
 
 ---
 
@@ -312,7 +299,19 @@ A special thank you to **Mez**, who’s always had my back since day one. 💜
 ---
 
 <div align="center">
- 
+
+
+ ---
+
+## 🧠 About Mobz Development
+
+> **Mobz Development** is powered by a shared vision — building modular, open-source frameworks that connect every part of gameplay.  
+> From prestige progression to player stats and crafting, our goal is to make development simpler, smarter, and more powerful.
+
+This project — and everything we’ve built together — exists because of **trust, dedication, and teamwork**.  
+A special thank you to **Mez**, who’s always had my back since day one. 💜  
+
+
 ---
 
 ## 🔒 License & Distribution (Commercial / Tebex)
@@ -330,7 +329,6 @@ It is **not** released under an open-source license.
 <!-- Community & Support -->
 [![💬 Discord](https://img.shields.io/badge/💬_Join_Our_Discord-5865F2?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/a6qECrxuCg)
 [![🛒 Tebex](https://img.shields.io/badge/🛒_Visit_Our_Store-00b894?style=for-the-badge)](https://zombie-war.tebex.io)
-
 
 
 </div>
