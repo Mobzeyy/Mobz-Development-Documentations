@@ -304,6 +304,7 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
  ---
 
 ## 🧠 About Mobz Development
+##### mobz team
 
 > **Mobz Development** is powered by a shared vision — building modular, open-source frameworks that connect every part of gameplay.  
 > From prestige progression to player stats and crafting, our goal is to make development simpler, smarter, and more powerful.
@@ -315,7 +316,6 @@ A special thank you to **Mez**, who’s always had my back since day one. 💜
 ---
 
 ## 🔒 License & Distribution (Commercial / Tebex)
-##### mobz team
 
 **Important:** This resource is sold as a paid, **closed-source** product through **Tebex**.  
 It is **not** released under an open-source license.
