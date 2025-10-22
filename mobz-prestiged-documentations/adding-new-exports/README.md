@@ -1,3 +1,7 @@
+[![← Back to Main Docs](https://img.shields.io/badge/←_Back_to_Main_Docs-9c2590?style=for-the-badge&logo=mobz%20development)](../README.md)
+
+---
+
 # Step-by-step guide 
 
 ## showing how to make a new export that modifies stats, directly using EnsurePlayerDataServer, without touching the core logic:
