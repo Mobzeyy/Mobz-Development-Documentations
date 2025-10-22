@@ -322,8 +322,6 @@ It is **not** released under an open-source license.
 [![🛒 Tebex](https://img.shields.io/badge/🛒_Visit_Our_Store-00b894?style=for-the-badge)](https://zombie-war.tebex.io)
 
 
-</div>
-
 ---
 
 **© 2025 Mobz & Mez Development**  
@@ -333,3 +331,5 @@ It is **not** released under an open-source license.
 
 <!-- Primary Navigation -->
 [![⬆️ Back to Top](https://img.shields.io/badge/⬆️_Back_to_Top-9b59b6?style=for-the-badge)](README.md#top-of-page)
+
+</div>
