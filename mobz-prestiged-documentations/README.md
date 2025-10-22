@@ -247,6 +247,15 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 ---
 
+## Notes and Best Practices
+>> Always use `EnsurePlayerDataServer()` before editing data  
+>> Save changes via `SavePlayer()`  
+>> Tokens are derived automatically from level  
+>> Other scripts can expand stats freely  
+
+
+---
+
 ## 🚀 Quick Access Badges
 
 <div align="center">
@@ -256,15 +265,6 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 [![All Stats](https://img.shields.io/badge/Stats-All%20Stats-e81798?style=for-the-badge)](player-stats/README.md)
 [![Config Tables](https://img.shields.io/badge/Tables-Config%20Data-orange?style=for-the-badge)](table-stats/README.md)
 [![All Exports](https://img.shields.io/badge/All-Exports%20Data-yellow?style=for-the-badge)](all-exports-table/README.md)
-
-
----
-
-## Notes and Best Practices
->> Always use `EnsurePlayerDataServer()` before editing data  
->> Save changes via `SavePlayer()`  
->> Tokens are derived automatically from level  
->> Other scripts can expand stats freely  
 
 ---
 
@@ -312,6 +312,8 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 This project — and everything we’ve built together — exists because of **trust, dedication, and teamwork**.  
 A special thank you to **Mez**, who’s always had my back since day one. 💜  
 
+[![Mobz & Mez](https://img.shields.io/badge/Mobz%20%26%20Mez-Lead%20Developers-8A2BE2?style=for-the-badge&logo=github)](README.md#license--credits)
+[![Mobz Development](https://img.shields.io/badge/Mobz%20Development-Official-purple?style=for-the-badge)](../README.md)
 
 ---
 
