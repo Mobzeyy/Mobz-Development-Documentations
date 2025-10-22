@@ -27,8 +27,8 @@ Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
 
 ---
 
- ### 📊 Installation Guide
-[![Installation](https://img.shields.io/badge/📊_Installation-00b894?style=for-the-badge)](installation/README.md)
+ ### ⚙️ Installation Guide
+[![Installation](https://img.shields.io/badge/⚙️_Installation-00b894?style=for-the-badge)](installation/README.md)
 
 
 ---
@@ -42,7 +42,7 @@ Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
 | 📊 **Player Stats** | Trackable stats, progression & dynamic updates | [View Stats](player-stats/README.md) |
 | 📋 **Tables Reference** | Data tables, config & level requirements | [Go to Tables](tables-stats/README.md) |
 | 🧠 **Advanced Usage** | Custom API integration & expansion | [Advanced Section](main-source/README.md) |
-| 🧑‍💻 **Developers** | Credits, license & authors | [Meet the Team](README.md#license--credits) |
+| 🧑‍💻 **Developers** | Credits, license & authors | [Meet the Team](README.md#©-2025-Mobz-&-Mez-Development) |
 
 
 ---
