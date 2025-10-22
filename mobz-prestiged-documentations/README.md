@@ -25,8 +25,7 @@ Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
 [![Stats](https://img.shields.io/badge/📊_Stats-00b894?style=for-the-badge)](player-stats/README.md)
 [![Tables](https://img.shields.io/badge/📋_Tables-00cec9?style=for-the-badge)](all-exports-table/README.md)
 
-[![License](https://img.shields.io/badge/⚖️_License-3498db?style=for-the-badge)](#license--credits)
-
+---
 
 | 📁 Section | 📝 Description | 🔗 Link |
 |------------|----------------|---------|
