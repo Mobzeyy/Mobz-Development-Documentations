@@ -1,121 +1,83 @@
-# ⚔️ XP Progression XP System with Dynamic UI Bar  (QB-Core + ox_lib) for FiveM
+# ⚙️ Mobz-Prestiged — Installation Guide
 
-A complete **XP Leveling and Progression System** built for **Heroes vs Villains** and other RP or action servers. It features a sleek dynamic XP bar, secure XP management, admin tools, and full QB-Core metadata support.
+A modular prestige and rewards framework designed for FiveM servers.  
+Before using, please follow the installation steps carefully to ensure proper setup.
 
-## 🎯 Features
+---
 
-### 🧬 Dynamic XP Bar
-* ✅ Toggleable XP bar using a keybind (default: `Z`)
-* ✅ XP stored in player metadata
-* ✅ Dynamically colored XP bar based on level
-* ✅ Smooth level-up scaling
-  ```
-  🛡️ Level 2
-  [█████░░░░░░░░░] 50 / 100 XP
-  ```
+## 🧩 Step 1. Dependencies
 
-### 🔁 XP Progression Logic
-- XP stored in QB-Core `metadata["xp"]`.
-- Every 100 XP = +1 Level (configurable).
-- XP saves and loads automatically.
-
-### 🎮 Player Controls
-- Players can toggle XP bar with a **keybind** (default: `Z`).
-- Responsive and does not interfere with gameplay.
-
-### 🧠 Secure Exports
-- Other scripts can safely **request** XP changes:
-  ```lua
-  exports["xp_progression"]:RequestAddXP(25)
-  exports["xp_progression"]:RequestRemoveXP(10)
-  ```
-- XP can only be changed **from server-side** for security.
-
-### 📢 Level-Up Notifications
-- On leveling up, players see a:
-  - 📣 **ox_lib notify**
-  - 🔊 **Sound effect** (InteractSound or default GTA)
-  - 💃 **Optional emote** (cheering)
-
-### 🔐 Admin Control Panel
-- Command: `/xpadmin`
-- Shows full **ox_lib menu** of all online players:
-  - View current XP + level
-  - Add XP
-  - Remove XP
-  - Set XP
-  - Teleport to player
-- Admin-only (`group = "admin"` in QB-Core)
-
-### ⚙️ Advanced Config
-- Easily customize:
-  - XP per level
-  - UI color per level
-  - Toggle emotes
-  - UI position
-  - Enable/disable keybind toggle
-  - Level-up sound type
-
-
-## 🔧 Installation
-
-1. Drop this resource into your `resources/[your-folder]/xp_progression`
-2. Ensure `ox_lib` and `qb-core` are started BEFORE this resource
-3. If using **InteractSound**, place `levelup.ogg` into your sound folder and add it to `fxmanifest.lua`
-4. Start it in your `server.cfg`:
-   ```
-   ensure xp_progression
+Make sure you have the required dependency installed:  
+```
+mobz-dependencies
 ```
 
-# XP System with Dynamic UI Bar
+This resource is required for all Mobz systems to function properly.
 
-## Overview
+---
 
-This script adds an XP (Experience Points) system for players in a FiveM server using the QBCore framework. It includes a customizable and dynamically colored XP progress bar displayed on the UI, which updates as the player gains XP.
+## 🪄 Step 2. Resource Order
 
+In your **server.cfg**, ensure resources are started in this order:
+```cfg
+ensure mobz-dependencies
+ensure mobz-prestiged
+```
 
-## Features
+> ⚠️ The order is **important** — `mobz-dependencies` must start before `mobz-prestiged`.
 
-* ✅ Toggleable XP bar using a keybind (default: `Z`)
-* ✅ XP stored in player metadata
-* ✅ Dynamically colored XP bar based on level
-* ✅ Smooth level-up scaling
-* ✅ Configurable UI settings
+---
 
+## ⚙️ Step 3. Configure mobz-dependencies
 
+Navigate to:
+```
+mobz-dependencies/config.lua
+```
+Adjust any required configuration values (framework detection, logging, etc.) to match your server’s setup (ESX, QBCore, custom framework, etc.).
 
-* The default key to show/hide the XP bar (rebindable via `RegisterKeyMapping`).
+---
 
+## 🧠 Step 4. Configure mobz-prestiged
 
-* **position**: Where the bar appears on the screen.
-* **colorByLevel**: Enable/disable color changing by level.
-* **getColorForLevel**: Function that returns a hex color based on level.
+Open and edit:
+```
+mobz-prestiged/config.lua
+```
+Customize settings such as:
+- Prestige levels  
+- Level rewards  
+- Themes and UI options  
+- Export toggles  
 
+---
 
-Used to generate dynamic color codes from HSL values.
+## 📂 Open Source Files
 
+The following files are open and customizable for developers:
+```
+mobz-prestiged/server/rewards.lua     -- Manage reward logic
+mobz-prestiged/server/exports.lua     -- Server-side exports
+mobz-prestiged/client/exports.lua     -- Client-side exports
+```
 
-## Customization Ideas
+These are intentionally left editable to allow you to expand or integrate the system with your own logic.
 
-* 🔥 Use fire-themed colors for battle-focused servers
-* 🌿 Use green tones for roleplay/farming progression
-* 🌈 Enable full rainbow for arcade-style themes
+---
 
-Change the XP color generation in `getColorForLevel()`.
+## ✅ Done!
 
+Once everything is configured:
+1. Restart your server  
+2. Join the game  
+3. Enjoy your new prestige system! 🎉  
 
+---
 
+## 🧾 Optional
 
-## Installation
-
-1. **Place the resource folder** into your `resources` directory.
-2. **Add to your server config**:
-3. **Add to qb-core/config 
-
-- add metadata table `xp = 0,` or wont work to qb-core/config 
- 
-xp = 0,	
-
-3. **Ensure dependencies**:
-
-* QBCore framework is installed and working
+You may also explore other Mobz modules for full ecosystem integration:
+- `mobz-driving`
+- `mobz-reputation`
+- `mobz-achievements`
+- `mobz-crafting`
