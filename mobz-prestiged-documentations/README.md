@@ -252,10 +252,17 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 ---
 
-## 🧾 About Mobz Development
+## 🧠 About Mobz Development
 
->> A modular, open framework for prestige progression, player stats,  
->> and game-wide expansion — designed for flexibility and integration.
+> **Mobz Development** is powered by a shared vision — building modular, open-source frameworks that connect every part of gameplay.  
+> From prestige progression to player stats and crafting, our goal is to make development simpler, smarter, and more powerful.
+
+This project — and everything we’ve built together — exists because of **trust, dedication, and teamwork**.  
+A special thank you to **Mez**, who’s always had my back since day one. 💜  
+
+**© 2025 Mobz & Mez Development**  
+*Crafted with heart, by developers for developers.*
+
 
 ---
 
@@ -309,19 +316,24 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 ---
 
+<div align="center">
+ 
+---
+
+## 🔒 License & Distribution (Commercial / Tebex)
+
+**Important:** This resource is sold as a paid, **closed-source** product through **Tebex**.  
+It is **not** released under an open-source license.
+
+- Redistribution, modification, or sharing of this resource without a valid purchase and explicit permission from Mobz Development is **strictly prohibited**.
+- If you purchased this resource, your purchase grants you a license to use it according to the terms shown on the Tebex store page and the license file included with your download.
+- For license questions, refunds, or support, please contact the seller through the Tebex store listing or the contact information provided with your purchase.
+
 <!-- Community & Support -->
 [![💬 Discord](https://img.shields.io/badge/💬_Join_Our_Discord-5865F2?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/a6qECrxuCg)
 [![🛒 Tebex](https://img.shields.io/badge/🛒_Visit_Our_Store-00b894?style=for-the-badge)](https://zombie-war.tebex.io)
 
 
-<div align="center">
- 
----
-
-## ⚖️ License
-
-Licensed under **MIT License**  
-© 2025 **Mobz Development** All rights reserved.
 
 </div>
 
