@@ -232,9 +232,9 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 <div align="center">
 
-[![API Server](https://img.shields.io/badge/API-Server%20Exports-8A2BE2?style=for-the-badge)](exports/README.md#server-side)
-[![API Client](https://img.shields.io/badge/API-Client%20Exports-8A2BE2?style=for-the-badge)](exports/README.md#client-side)
-[![All Stats](https://img.shields.io/badge/Stats-All%20Stats-00b894?style=for-the-badge)](player-stats/README.md)
+[![API Server](https://img.shields.io/badge/API-Server%20Exports-2980b9?style=for-the-badge)](exports/README.md#server-side)
+[![API Client](https://img.shields.io/badge/API-Client%20Exports-27ae60?style=for-the-badge)](exports/README.md#client-side)
+[![All Stats](https://img.shields.io/badge/Stats-All%20Stats-e81798?style=for-the-badge)](player-stats/README.md)
 [![Config Tables](https://img.shields.io/badge/Tables-Config%20Data-orange?style=for-the-badge)](table-stats/README.md)
 [![All Exports](https://img.shields.io/badge/All-Exports%20Data-yellow?style=for-the-badge)](all-exports-table/README.md)
 
