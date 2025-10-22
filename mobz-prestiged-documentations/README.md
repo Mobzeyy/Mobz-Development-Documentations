@@ -207,14 +207,14 @@ PrestigeAPI.UpdateTokens("license:1234567890abcdef")
 
 Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
-[![Main Source](https://img.shields.io/badge/🖥️_Main_Source-e32614?style=for-the-badge)](main-source/README.md)
+[![🛡️ Main Source](https://img.shields.io/badge🛡️_Main_Source-e32614?style=for-the-badge)](main-source/README.md)
 
 
 # Advanced Usage	Custom API integration & expansion	Advanced 
 
 ##### example:
 
-[![Metadata Stats](https://img.shields.io/badge/🖥️_Metadata_stats-1437e3?style=for-the-badge)](metadata-stats/README.md)
+[![🧮 Metadata Stats](https://img.shields.io/badge/🧮_Metadata_stats-1437e3?style=for-the-badge)](metadata-stats/README.md)
 
 ---
 
@@ -232,14 +232,14 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 (Full table continues in All Stats.)
 
-[![All Stats](https://img.shields.io/badge/🖥️_All_Stats-e81798?style=for-the-badge)](player-stats/README.md)
+[![📈 All Stats](https://img.shields.io/badge/📈_All_Stats-e81798?style=for-the-badge)](player-stats/README.md)
 
 
 ---
 
-## Examples how to use:
+## ⚗️ Examples how to use:
 
-[![Exports Exmpales](https://img.shields.io/badge/Exports-Exmpales-33e817?style=for-the-badge)](export-examples/README.md)
+[![⚗️ Exports Exmpales](https://img.shields.io/badge/⚗️_Exports-Exmpales-33e817?style=for-the-badge)](export-examples/README.md)
 
 
 ---
