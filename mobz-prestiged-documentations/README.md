@@ -27,6 +27,12 @@ Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
 
 ---
 
+ ### 📊 Installation Guide
+[![Installation](https://img.shields.io/badge/📊_Installation-00b894?style=for-the-badge)](installation/README.md)
+
+
+---
+
 | 📁 Section | 📝 Description | 🔗 Link |
 |------------|----------------|---------|
 | 🏠 **Main Docs** | Overview of all features, setup & structure | [Open Main Docs](README.md#features) |
