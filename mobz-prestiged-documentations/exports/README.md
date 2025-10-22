@@ -371,3 +371,8 @@ print(pdata.level) -- prints current level
 
 
 [![← Back to Main Docs Server Side](https://img.shields.io/badge/←_Back_to_Main_Docs-9c2590?style=for-the-badge&logo=mobz%20development)](../README.md#Server-Exports-Reference)
+
+---
+
+[Top of page](#🖥️-Mobz-Prestiged-Exports)
+
