@@ -1,4 +1,4 @@
-## 🖥️ Server Exports Full Reference
+## Server Exports Full Reference
 
 ### 🧍 Player Stats
 | Export Name | Description | Return / Notes |
@@ -177,4 +177,6 @@
 | GetPlayerVisuals_cl | Get player visuals locally | Visual object |
 
 
+---
 
+[Top of page](#Server-Exports-Full-Reference)
