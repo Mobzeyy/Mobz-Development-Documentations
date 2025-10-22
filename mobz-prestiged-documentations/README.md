@@ -53,10 +53,7 @@ Includes **dynamic UI**, **prestige badges**, **killstreak tracking**, **Discord
 Displays a dynamically colored XP progress bar on UI.  
 Progression syncs automatically as players gain XP.
 
-![UI Example](https://github.com/user-attachments/assets/e42a1503-4417-47fb-a100-5b5315df9dcd)
-
-![UI Gif Example](https://github.com/user-attachments/assets/54f9d95b-7427-4a7b-b7a7-be3606657733)
-
+![UI Gif Example](https://i.postimg.cc/d1r7xT0G/2025-10-0613-45-29-ezgif-com-video-to-gif-converter-2.gif)
 
 ```lua
 🛡️ Level 2
@@ -89,9 +86,8 @@ Prestige updates, rewards, and killstreaks are logged via Discord webhooks.
 200 preconfigured prestige badges (`prestiged1` → `prestiged200`).  
 Roman numerals, animated display, and texture dictionary support.
 
-![Prestige Badges1](https://github.com/user-attachments/assets/33b64d70-961c-4b7b-8982-d028218a50d1)
-![Prestige Badges2](https://github.com/user-attachments/assets/cde29ab6-2023-4821-bf66-f40da368637b)
-
+![Prestige Badges1](https://i.postimg.cc/mrgwWjYK/fulllist1.png)
+![Prestige Badges2](https://i.postimg.cc/Pq54nyWB/fulllist2.png)
 
 ---
 
