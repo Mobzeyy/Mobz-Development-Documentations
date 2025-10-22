@@ -42,7 +42,7 @@ Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
 | 📊 **Player Stats** | Trackable stats, progression & dynamic updates | [View Stats](player-stats/README.md) |
 | 📋 **Tables Reference** | Data tables, config & level requirements | [Go to Tables](tables-stats/README.md) |
 | 🧠 **Advanced Usage** | Custom API integration & expansion | [Advanced Section](main-source/README.md) |
-| 🧑‍💻 **Developers** | Credits, license & authors | [Meet the Team](README.md#©-2025-Mobz-&-Mez-Development) |
+| 🧑‍💻 **Developers** | Credits, license & authors | [Meet the Team](README.md#team) |
 
 
 ---
@@ -312,6 +312,7 @@ A special thank you to **Mez**, who’s always had my back since day one. 💜
 ---
 
 ## 🔒 License & Distribution (Commercial / Tebex)
+##### team
 
 **Important:** This resource is sold as a paid, **closed-source** product through **Tebex**.  
 It is **not** released under an open-source license.
