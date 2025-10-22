@@ -308,15 +308,6 @@ A special thank you to **Mez**, who’s always had my back since day one. 💜
 ---
 
 <div align="center">
-
----
-
-<!-- Primary Navigation -->
-[![⬆️ Back to Top](https://img.shields.io/badge/⬆️_Back_to_Top-9b59b6?style=for-the-badge)](README.md#top-of-page)
-
----
-
-<div align="center">
  
 ---
 
@@ -328,6 +319,8 @@ It is **not** released under an open-source license.
 - Redistribution, modification, or sharing of this resource without a valid purchase and explicit permission from Mobz Development is **strictly prohibited**.
 - If you purchased this resource, your purchase grants you a license to use it according to the terms shown on the Tebex store page and the license file included with your download.
 - For license questions, refunds, or support, please contact the seller through the Tebex store listing or the contact information provided with your purchase.
+
+---
 
 <!-- Community & Support -->
 [![💬 Discord](https://img.shields.io/badge/💬_Join_Our_Discord-5865F2?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/a6qECrxuCg)
@@ -342,3 +335,7 @@ It is **not** released under an open-source license.
 **© 2025 Mobz & Mez Development**  
 *Crafted with 💜 by developers, for developers.*
 
+---
+
+<!-- Primary Navigation -->
+[![⬆️ Back to Top](https://img.shields.io/badge/⬆️_Back_to_Top-9b59b6?style=for-the-badge)](README.md#top-of-page)
