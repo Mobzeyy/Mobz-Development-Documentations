@@ -25,6 +25,7 @@
  * [![Client Exports](https://img.shields.io/badge/💻_Client_Exports-27ae60?style=for-the-badge)](exports/README.md#client-side)
 
 
+---
 
 ### 📊 Data & Tables
 [![Stats](https://img.shields.io/badge/📊_Stats-00b894?style=for-the-badge)](player-stats/README.md)
