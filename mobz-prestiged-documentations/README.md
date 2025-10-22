@@ -7,7 +7,7 @@
 
 # 🏆 Mobz-Prestiged
 
-> The Ultimate Prestige, XP, and Progression Framework for FiveM
+## The Ultimate Prestige, XP, and Progression Framework for FiveM
 
 > A fully modular prestige and XP system for FiveM.  
 > Includes **dynamic XP/UI bars, prestige ranks, killstreaks, rewards, Discord logs, admin tools, and advanced exports**.  
