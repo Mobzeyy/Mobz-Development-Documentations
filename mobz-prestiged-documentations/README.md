@@ -9,7 +9,7 @@ Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
 
 ---
 
-## 📑 Table of Contents
+## 📚 Table of Contents
 
 <div align="center">
 
@@ -26,6 +26,18 @@ Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
 [![Tables](https://img.shields.io/badge/📋_Tables-00cec9?style=for-the-badge)](all-exports-table/README.md)
 
 [![License](https://img.shields.io/badge/⚖️_License-3498db?style=for-the-badge)](#license--credits)
+
+
+| 📁 Section | 📝 Description | 🔗 Link |
+|------------|----------------|---------|
+| 🏠 **Main Docs** | Overview of all features, setup & structure | [Open Main Docs](README.md#features) |
+| ⚙️ **API Docs** | Full developer reference for server & client exports | [Go to API Docs](exports/README.md) |
+| 🖥️ Server Exports | API functions for server-side scripts | [View Server Exports](exports/README.md#server-side) |
+| 💻 Client Exports | API functions for client-side scripts | [View Client Exports](exports/README.md#client-side) |
+| 📊 **Player Stats** | Trackable stats, progression & dynamic updates | [View Stats](player-stats/README.md) |
+| 📋 **Tables Reference** | Data tables, config & level requirements | [Go to Tables](tables-stats/README.md) |
+| 🧠 **Advanced Usage** | Custom API integration & expansion | [Advanced Section](main-source/README.md) |
+| 🧑‍💻 **Developers** | Credits, license & authors | [Meet the Team](README.md#license--credits) |
 
 
 ---
@@ -214,21 +226,6 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 [![All Stats](https://img.shields.io/badge/🖥️_All_Stats-9c4525?style=for-the-badge)](player-stats/README.md)
 
----
-
-## 📚 Table of Contents
-
-| 📁 Section | 📝 Description | 🔗 Link |
-|------------|----------------|---------|
-| 🏠 **Main Docs** | Overview of all features, setup & structure | [Open Main Docs](README.md#features) |
-| ⚙️ **API Docs** | Full developer reference for server & client exports | [Go to API Docs](api/README.md) |
-| 🖥️ Server Exports | API functions for server-side scripts | [View Server Exports](api/README.md#server-exports) |
-| 💻 Client Exports | API functions for client-side scripts | [View Client Exports](api/README.md#client-exports) |
-| 📊 **Player Stats** | Trackable stats, progression & dynamic updates | [View Stats](stats/README.md#all-stats) |
-| 📋 **Tables Reference** | Data tables, config & level requirements | [Go to Tables](tables/README.md) |
-| 🧠 **Advanced Usage** | Custom API integration & expansion | [Advanced Section](README.md#advanced-usage) |
-| 🧑‍💻 **Developers** | Credits, license & authors | [Meet the Team](README.md#license--credits) |
-[![Config Tables](https://img.shields.io/badge/Tables-Config%20Data-orange?style=for-the-badge)](tables-stats/README.md)
 
 ---
 
