@@ -1,4 +1,10 @@
 ###### top of page
+
+<div align="center">
+
+<!-- Logo -->
+<img src="https://i.postimg.cc/RZrBFgCH/ZOMBIEWAR.png" alt="Mobz Logo" width="200" style="border-radius:15px; margin-bottom:10px;" />
+
 # 🏆 Mobz-Prestiged
 
 > The Ultimate Prestige, XP, and Progression Framework for FiveM
@@ -11,7 +17,6 @@ Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
 
 ## 📚 Table of Contents
 
-<div align="center">
 
 [![Overview](https://img.shields.io/badge/📖_Overview-9b59b6?style=for-the-badge)](#overview)
 [![Features](https://img.shields.io/badge/⚙️_Features-8e44ad?style=for-the-badge)](#features)
@@ -275,9 +280,6 @@ A special thank you to **Mez**, who’s always had my back since day one. 💜
 ---
 
 <div align="center">
-
-<!-- Logo -->
-<img src="https://i.postimg.cc/RZrBFgCH/ZOMBIEWAR.png" alt="Mobz Logo" width="200" style="border-radius:15px; margin-bottom:10px;" />
 
 ---
 
