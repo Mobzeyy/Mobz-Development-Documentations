@@ -256,7 +256,7 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 
 ---
 
-## 🚀 Quick Access Badges
+## 🚀 Quick Access
 
 <div align="center">
 
@@ -265,10 +265,6 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 [![All Stats](https://img.shields.io/badge/Stats-All%20Stats-e81798?style=for-the-badge)](player-stats/README.md)
 [![Config Tables](https://img.shields.io/badge/Tables-Config%20Data-orange?style=for-the-badge)](table-stats/README.md)
 [![All Exports](https://img.shields.io/badge/All-Exports%20Data-yellow?style=for-the-badge)](all-exports-table/README.md)
-
----
-
-<div align="center">
 
 ---
 
@@ -293,13 +289,6 @@ Supports dynamic updates for cash, XP, reputation, tokens, and titles.
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 ![Version](https://img.shields.io/badge/Version-1.0.0-yellow?style=flat-square)
-
-</div>
-
----
-
-<div align="center">
-
 
  ---
 
