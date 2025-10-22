@@ -24,7 +24,7 @@
 [![Server Exports](https://img.shields.io/badge/🖥️_Server_Exports-2980b9?style=for-the-badge)](exports/README.md#server-side)
 [![Client Exports](https://img.shields.io/badge/💻_Client_Exports-27ae60?style=for-the-badge)](exports/README.md#client-side)
 
-</div>
+
 
 ### 📊 Data & Tables
 [![Stats](https://img.shields.io/badge/📊_Stats-00b894?style=for-the-badge)](player-stats/README.md)
@@ -35,6 +35,7 @@
  ### ⚙️ Installation Guide
 [![Installation](https://img.shields.io/badge/⚙️_Installation-00b894?style=for-the-badge)](installation/README.md)
 
+</div>
 
 ---
 
