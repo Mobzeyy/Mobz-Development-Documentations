@@ -8,7 +8,7 @@
 
 - Download and place mobz-prestiged into your server’s resources folder.
 
-2.  Add **prestiged** group t0 cfg
+2.  Add **prestiged** group to cfg
 
 ---
 
@@ -28,6 +28,7 @@ add_ace group.prestiged group.prestiged allow
 - REPLACE WITH YOUR REAL ` license:132ff6c5376744059dd3cb8ed8571b4c54f0f579 `
 
 ---
+
 ## Step 2.
 
 **Ensure dependencies:
@@ -42,6 +43,7 @@ add_ace group.prestiged group.prestiged allow
 - mobz-dependecies -  https://github.com/Mobzeyy/Mobz-Development-Scripts/tree/main/mobz-dependencies
 
 ---
+
 ## Step 3.
 - Add to your server.cfg:
 
@@ -53,7 +55,6 @@ ensure mobz-prestiged
 
 ---
 
----
 
 # ⚙️ Mobz-Prestiged — Installation Guide
 
