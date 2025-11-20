@@ -2,7 +2,6 @@
 
 
 
----
 ## 📂 Installation
 
 ## Step 1. 
