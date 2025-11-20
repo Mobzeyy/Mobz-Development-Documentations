@@ -43,11 +43,17 @@ add_principal identifier.license:132ff6c5376744059dd3cb8ed8571b4c54f0f579 group.
   
 - mobz-dependecies -  https://github.com/Mobzeyy/Mobz-Development-Scripts/tree/main/mobz-dependencies
 
-  - Add to your server.cfg:
+- Add to your server.cfg:
+
+---
+
+```
 ensure ox_lib
 ensure mobz-dependencies
 ensure mobz-prestiged
+```
+---
 
-This resource is required for all Mobz systems to function properly.
+## This resource is required for all Mobz systems to function properly.
 
 ---
