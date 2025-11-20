@@ -9,16 +9,16 @@
 
 - Download and place mobz-prestiged into your server’s resources folder.
 
-2.  Make a group **prestiged**  
-
-** add to cfg
+2.  Add **prestiged** group tp cfg 
 	
-add_ace group.prestiged group.prestiged allow
+`add_ace group.prestiged group.prestiged allow`
+
 ---
-3. **Assign group
+3. Assign **group** on cfg
 
 **EXAMPLE ADD TO CFG**
 ##### Assign specific people to the group. - add to cfg Use license or steam or both with your real license or steam
+
 `add_principal identifier.license:132ff6c5376744059dd3cb8ed8571b4c54f0f579 group.prestiged`
 
 - REPLACE WITH YOUR REAL ``` license:132ff6c5376744059dd3cb8ed8571b4c54f0f579 ```
