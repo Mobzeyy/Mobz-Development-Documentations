@@ -2,9 +2,9 @@
 
 
 
-## 📂 Installation
+#  📂 Installation
 
-## Step 1. 
+# Step 1. 
 
 - Download and place mobz-prestiged into your server’s resources folder.
 
