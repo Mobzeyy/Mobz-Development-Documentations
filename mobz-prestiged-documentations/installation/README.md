@@ -25,11 +25,9 @@ add_ace group.prestiged group.prestiged allow
 
 ```
 add_principal identifier.license:132ff6c5376744059dd3cb8ed8571b4c54f0f579 group.prestiged
-
+```
 
 ---
-
-```
 
 - REPLACE WITH YOUR REAL ` license:132ff6c5376744059dd3cb8ed8571b4c54f0f579 `
 
