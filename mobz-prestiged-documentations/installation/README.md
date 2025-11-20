@@ -15,6 +15,7 @@
 ```	
 add_ace group.prestiged group.prestiged allow
 ```lua
+
 ---
 
 3. Assign **group** on cfg
