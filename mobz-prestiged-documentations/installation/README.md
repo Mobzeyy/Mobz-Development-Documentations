@@ -12,13 +12,14 @@
 2.  Add **prestiged** group t0 cfg
 
 ---
+
 ```	
 add_ace group.prestiged group.prestiged allow
 ```lua
 
 ---
 
-3. Assign **group** on cfg
+3. Assign *group* on cfg
 
 **EXAMPLE ADD TO CFG**
 ##### Assign specific people to the group. - add to cfg Use license or steam or both with your real license or steam
