@@ -1,6 +1,56 @@
 [![← Back to Main Docs](https://img.shields.io/badge/←_Back_to_Main_Docs-9c2590?style=for-the-badge&logo=mobz%20development)](../README.md)
 
 
+
+----------------------------------------
+## 📂 Installation
+----------------------------------------
+## Step 1. 
+
+- Download and place mobz-prestiged into your server’s resources folder.
+
+2.  Make a group **prestiged**  
+
+** add to cfg
+	
+add_ace group.prestiged group.prestiged allow
+----------------------------------------
+3. **Assign group
+
+**EXAMPLE ADD TO CFG**
+# Assign specific people to the group. - add to cfg Use license or steam or both with your real license or steam
+add_principal identifier.license:132ff6c5376744059dd3cb8ed8571b4c54f0f579 group.prestiged
+
+- REPLACE WITH YOUR REAL ``` license:132ff6c5376744059dd3cb8ed8571b4c54f0f579 ```
+----------------------------------------
+## Step 2.
+
+**Ensure dependencies:
+- mobz-dependecies
+- ox_lib
+
+- Add **dependencies**: 
+
+  * mobz-dependecies
+  * ox_lib
+  
+- mobz-dependecies -  https://github.com/Mobzeyy/Mobz-Development-Scripts/tree/main/mobz-dependencies
+
+
+## Step 3.
+- Add to your server.cfg:
+
+**Add to your server.cfg:
+ensure oxmysql
+ensure ox_lib
+ensure mobz-dependencies
+ensure mobz-prestiged
+
+**Client Exports:**
+```lua
+
+
+
 ---
 
 # ⚙️ Mobz-Prestiged — Installation Guide
