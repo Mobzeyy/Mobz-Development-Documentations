@@ -23,7 +23,10 @@ add_ace group.prestiged group.prestiged allow
 **EXAMPLE ADD TO CFG**
 ##### Assign specific people to the group. - add to cfg Use license or steam or both with your real license or steam
 
-```add_principal identifier.license:132ff6c5376744059dd3cb8ed8571b4c54f0f579 group.prestiged```
+```
+add_principal identifier.license:132ff6c5376744059dd3cb8ed8571b4c54f0f579 group.prestiged
+
+```
 
 - REPLACE WITH YOUR REAL ` license:132ff6c5376744059dd3cb8ed8571b4c54f0f579 `
 
