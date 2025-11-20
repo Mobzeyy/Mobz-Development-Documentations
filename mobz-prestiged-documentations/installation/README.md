@@ -9,7 +9,9 @@
 
 - Download and place mobz-prestiged into your server’s resources folder.
 
-2.  Add **prestiged** group t0 cfg 
+2.  Add **prestiged** group t0 cfg
+
+--- 
 	
 ```add_ace group.prestiged group.prestiged allow```
 
