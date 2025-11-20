@@ -2,9 +2,9 @@
 
 
 
-----------------------------------------
+---
 ## 📂 Installation
-----------------------------------------
+
 ## Step 1. 
 
 - Download and place mobz-prestiged into your server’s resources folder.
@@ -14,7 +14,7 @@
 ** add to cfg
 	
 add_ace group.prestiged group.prestiged allow
-----------------------------------------
+---
 3. **Assign group
 
 **EXAMPLE ADD TO CFG**
@@ -22,7 +22,7 @@ add_ace group.prestiged group.prestiged allow
 add_principal identifier.license:132ff6c5376744059dd3cb8ed8571b4c54f0f579 group.prestiged
 
 - REPLACE WITH YOUR REAL ``` license:132ff6c5376744059dd3cb8ed8571b4c54f0f579 ```
-----------------------------------------
+---
 ## Step 2.
 
 **Ensure dependencies:
@@ -36,7 +36,7 @@ add_principal identifier.license:132ff6c5376744059dd3cb8ed8571b4c54f0f579 group.
   
 - mobz-dependecies -  https://github.com/Mobzeyy/Mobz-Development-Scripts/tree/main/mobz-dependencies
 
-
+---
 ## Step 3.
 - Add to your server.cfg:
 
@@ -46,10 +46,7 @@ ensure ox_lib
 ensure mobz-dependencies
 ensure mobz-prestiged
 
-**Client Exports:**
-```lua
-
-
+---
 
 ---
 
