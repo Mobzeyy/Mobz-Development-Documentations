@@ -20,10 +20,6 @@ add_ace group.prestiged group.prestiged allow
 
 3. Assign *group* on cfg
 
-**EXAMPLE ADD TO CFG**
-##### Assign specific people to the group. - add to cfg Use license or steam or both with your real license or steam
-
-
 ---
 
 ```
