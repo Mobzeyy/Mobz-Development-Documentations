@@ -20,27 +20,6 @@
 
 ## A fully-featured dragon companion system for FiveM servers, with advanced stats, flying, combat, and growth mechanics. Designed for **immersive gameplay**, **multiplayer sync**, and **server-authoritative persistence**.
 
----
-
-## 📚 Table of Contents
-[![Overview](https://img.shields.io/badge/📖_Overview-9b59b6?style=for-the-badge)](#overview)
-[![Features](https://img.shields.io/badge/⚙️_Features-8e44ad?style=for-the-badge)](#features)
-[![API](https://img.shields.io/badge/🧩_API_Reference-6c5ce7?style=for-the-badge)](exports/README.md)
- * [![Server Exports](https://img.shields.io/badge/🖥️_Server_Exports-2980b9?style=for-the-badge)](exports/README.md#server-side)
- * [![Client Exports](https://img.shields.io/badge/💻_Client_Exports-27ae60?style=for-the-badge)](exports/README.md#client-side)
-
-
----
-
-### 📊 Data & Tables
-[![Stats](https://img.shields.io/badge/📊_Stats-00b894?style=for-the-badge)](player-stats/README.md)
-[![Tables](https://img.shields.io/badge/📋_Tables-00cec9?style=for-the-badge)](all-exports-table/README.md)
-
----
-
- ### ⚙️ Installation Guide
-[![Installation](https://img.shields.io/badge/⚙️_Installation-00b894?style=for-the-badge)](installation/README.md)
-
 </div>
 
 ---
@@ -269,6 +248,8 @@ ensure mobz-dragons
 
  * [![Installation Guide](https://img.shields.io/badge/🧩__Installation_Guide-2980b9?style=for-the-badge)](installation/README.md#Installation_Guide)
 
+ ### ⚙️ Installation Guide
+[![Installation](https://img.shields.io/badge/⚙️_Installation-00b894?style=for-the-badge)](installation/README.md)
 
 ---
 
