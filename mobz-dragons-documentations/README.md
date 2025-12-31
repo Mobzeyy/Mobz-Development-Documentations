@@ -28,12 +28,8 @@
 |------------|----------------|---------|
 | ⚙️ **Installation** | Please follow the installation steps carefully to ensure proper setup.| [Installation Steps](installation/README.md) |
 | 🏠 **Main Docs** | Overview of all features, setup & structure | [Open Main Docs](README.md#features) |
-| 🧩 **Controls Summary** | Action / Key / Control | [Go to Controls Summary](README.md#ControlsSummary) |
-| 🖥️ Server Exports | API functions for server-side scripts | [View Server Exports](exports/README.md#server-side) |
-| 💻 Client Exports | API functions for client-side scripts | [View Client Exports](exports/README.md#client-side) |
-| 📊 **Player Stats** | Trackable stats, progression & dynamic updates | [View Stats](player-stats/README.md) |
-| 📋 **Tables Reference** | Data tables, config & level requirements | [Go to Tables](tables-stats/README.md) |
-| 🧠 **Advanced Usage** | Custom API integration & expansion | [Advanced Section](main-source/README.md) |
+| 🧩 **Controls Summary** | Action / Key / Control | [Go to Controls Summary](README.md#Controls_Summary) |
+| 📋 **Tables Reference** | Data tables, config & level requirements | [Go to Tables](README.md#Stats_Upgrade_Chart) |
 | 🧑‍💻 **Developers** | Credits, license & authors | [Meet the Team](README.md#mobz-team) |
 
 
@@ -209,7 +205,7 @@ Mounted? --> Yes: Hunger drains per tick --> Hunger < threshold? --> Apply Healt
 ---
 
 ### Stats Upgrade Chart
-
+# Stats Upgrade Chart
 * Stage 1: Base Health, Speed, Damage
 * Stage 2+: Incremental buffs applied automatically per XP + upgrades
 * Upgrades modify base stats dynamically
