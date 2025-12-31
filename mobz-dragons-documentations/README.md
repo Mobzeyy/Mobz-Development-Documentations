@@ -5,19 +5,22 @@
 <!-- Logo -->
 <img src="https://i.postimg.cc/RZrBFgCH/ZOMBIEWAR.png" alt="Mobz Logo" width="200" style="border-radius:15px; margin-bottom:10px;" />
 
-# 🏆 Mobz-Prestiged
+---
 
-## The Ultimate Prestige, XP, and Progression Framework for FiveM
+# 🐉 Mobz Dragons - FiveM Dragon Companion System
 
-> A fully modular prestige and XP system for FiveM.  
-> Includes **dynamic XP/UI bars, prestige ranks, killstreaks, rewards, Discord logs, admin tools, and advanced exports**.  
-> Supports **QB-Core**, **ESX**, **Ox_Inventory**, and standalone frameworks.
+**Version:** 2.x
+**Author:** [mobz]
+**Frameworks Supported:** QB-Core, ESX, Ox-Inventory
+**Dependencies:** ox_lib, mobz-dependencies, MySQL
+
+---
+
+## A fully-featured dragon companion system for FiveM servers, with advanced stats, flying, combat, and growth mechanics. Designed for **immersive gameplay**, **multiplayer sync**, and **server-authoritative persistence**.
 
 ---
 
 ## 📚 Table of Contents
-
-
 [![Overview](https://img.shields.io/badge/📖_Overview-9b59b6?style=for-the-badge)](#overview)
 [![Features](https://img.shields.io/badge/⚙️_Features-8e44ad?style=for-the-badge)](#features)
 [![API](https://img.shields.io/badge/🧩_API_Reference-6c5ce7?style=for-the-badge)](exports/README.md)
@@ -55,125 +58,215 @@
 
 ---
 
-##  Overview
-A complete **Prestige, XP, Level, and Buff System** for FiveM.  
-Standalone, fully customizable, and compatible with all major frameworks.  
-Includes **dynamic UI**, **prestige badges**, **killstreak tracking**, **Discord integration**, **leaderboards**, and **modular API exports**.
+## 📦 Features Overview
+# Overview
 
 ---
 
-## Features
-- Dynamic XP & Prestige UI with smooth progress animation  
-- Prestige rewards, badges, and ranking logic  
-- Integrated **killstreak effects**, **glowing footsteps**, and **mugshot UI**
-- Admin panel with configurable permissions  
-- Discord webhook integration  
-- Full server/client API exports for developers  
-- JSON persistence with automatic saving  
-- Extendable stats & progression logic  
+### 🐲 Dragon Lifecycle
+ # Mount & Dismount System
+
+  * Server-authoritative mounting with proper seat management
+  * Smooth animations for rider and dragon
+  * Flying state management: grounded → takeoff → hover → fly → glide → landing
+
+ **Dragon Stats & Growth**
+
+  * XP-based leveling and stage system
+  * Max health, stamina, speed, damage scaling per stage
+  * Upgrade system with persistent buffs and custom effects
+
+ **Vitals System**
+
+  * Hunger and health mechanics
+  * Hunger drains only while mounted
+  * Health drains automatically if hunger falls below threshold
+  * Feeding system with items that restore health or hunger
+  * XP-lock mechanics for advanced food (requires a certain dragon experience)
+
+
+### ✈️ Flight & Movement
+
+* Full flight physics (hover, fly, glide)
+* Takeoff and landing animations
+* Speed levels with controls:
+
+  * **W** – forward
+  * **S** – stop / descend
+  * **SPACEBAR** – takeoff
+  * **Shift** – glide boost
+* Automatic landing when dragon is exhausted or hunger low
+* Gestures while riding (forward, left, right, down) with seat-awareness
+
+
+### 💀 Combat & Abilities (Optional Expansion)
+
+* Dragon abilities synchronized across all players
+* Damage multipliers scale with stage and upgrades
+* Abilities can have multi-stage effects for progression
+
+
+### 🍗 Feeding & Inventory
+
+* Configurable food items with different restore amounts
+* Server checks for actual inventory items before consumption
+* XP requirements per food item
+* Fully compatible with:
+
+  * **QB-Core** inventory
+  * **ESX** inventory
+  * **Ox-Inventory**
 
 ---
 
-## XP System and Prestige Overview
-Displays a dynamically colored XP progress bar on UI.  
-Progression syncs automatically as players gain XP.
+### 🛠 Admin & Server Features
+# Admin & Server Features
 
-![UI Gif Example](https://i.postimg.cc/d1r7xT0G/2025-10-0613-45-29-ezgif-com-video-to-gif-converter-2.gif)
+* Server-authoritative dragon vitals & stats
+* Automatic hunger and health drain via server tick
+* Admin-friendly dragon spawning, stage reset, and XP addition
+* Mounted dragon tracking per player
+* Full database persistence: health, hunger, XP, upgrades, stage
 
-```lua
-🛡️ Level 2
-[█████░░░░░░░░░] 200 / 250 POINTS
+--- 
+
+## 🔧 Controls Summary
+# Controls Summary
+
+| Action           | Key / Control | Notes                               |
+| ---------------- | ------------- | ----------------------------------- |
+| Forward          | W             | Moves dragon forward (ground & air) |
+| Back / Descend   | S             | Stop movement / descent             |
+| Takeoff          | SPACE         | Launch dragon if hunger > threshold |
+| Speed Up / Down  | 1 / 3         | Adjust flight speed                 |
+| Gestures         | W/A/S/D       | Animated gestures while flying      |
+| Mount / Dismount | E (example)   | Attach or detach dragon from player |
+
+> ⚠️ Hunger < 15 → Dragon cannot take off
+
+---
+
+## 🏗 Configurable Options
+# Configurable Options
+
+ **DragonVitals**
+
+  * Max health & hunger
+  * Hunger drain rates
+  * Health drain when starving
+  * Flight lock thresholds
+
+ **XP & Stage Config**
+
+  * XP per action (flight, landing, takeoff)
+  * Stage upgrades with stat multipliers
+
+ **Feeding Items**
+
+  * Customizable restore values for hunger & health
+  * XP requirements per item
+
+ **Animations & Gestures**
+
+  * Rider gestures per key
+  * Dragon flight animations per mode
+
+---
+
+## 💾 Database Structure
+# Database Structure
+* `mobz_dragons` – stores dragon stats, health, hunger, XP, stage, and unique key
+* `mobz_dragon_upgrades` – stores applied upgrades per dragon
+* Fully compatible with **MySQL** and **async/await** pattern for server-side operations
+
+---
+
+## ⚡ Advanced Features
+# Advanced Features
+* **Server-authoritative mechanics** for true multiplayer consistency
+* **Dynamic dragon stats** per stage with upgrades applied automatically
+* **Statebag sync** for other players to see your dragon stats in real-time
+* **Configurable flight physics & gestures** for immersive RPG experience
+* **XP-based feeding** locks for progression-based gameplay
+
+---
+
+## 🎮 Player Experience
+# Player Experience
+* Own, ride, and grow your dragon companion
+* Train your dragon to fly higher, fight harder, and survive longer
+* Customize feeding and abilities for optimal performance
+* Experience a fully immersive dragon companion system synced across the server
+
+---
+
+## 📌 Installation
+# Installation
+1. Copy the `mobz-dragons` resource to your server resources folder
+2. Ensure dependencies are installed: `ox_lib`, `mobz-dependencies`, `MySQL-async`
+3. Add to server.cfg:
+
+```cfg
+ensure mobz-dependencies
+ensure mobz-dragons
+```
+
+4. Configure dragon items, stats, XP, and animations in `config.lua`
+5. Restart server
+
+---
+
+## 📄 Notes
+# Notes
+* Fully **multiplayer-safe**: All stats, vitals, and mounts are synced via server events
+* Designed for **high performance**, using async DB calls and server-side ticks
+* Compatible with **QB-Core, ESX, Ox-Inventory**
+
+---
+
+## 📊 Advanced Visuals & Flowcharts
+# Advanced Visuals & Flowcharts
+
+For a quick visual overview:
+
+### Dragon Lifecycle Flow
+
+---
+
+```
+Grounded --> Takeoff --> Hover --> Fly --> Glide --> Landing --> Grounded
+```
+---
+
+### Vitals Flow
+
+---
+
+```
+Mounted? --> Yes: Hunger drains per tick --> Hunger < threshold? --> Apply Health Damage
 ```
 
 ---
 
-## Rewards and Killstreaks
-Gain prestige points from **player or NPC kills**.  
-Reward tiers are open-source via `rewards.lua`.  
-Supports QB-Core, ESX, Ox_Inventory, Ox_Lib, or standalone.
+### Stats Upgrade Chart
 
-Feet glow effects, unique streak titles, and broadcasted achievements.
-
----
-
-## Mugshot UI
-Custom UI popup when a player achieves a killstreak.  
-Displays player name, streak, and broadcasts globally.
-
----
-
-## Discord Logs
-Prestige updates, rewards, and killstreaks are logged via Discord webhooks.
-
----
-
-## Prestige Badges
-200 preconfigured prestige badges (`prestiged1` → `prestiged200`).  
-Roman numerals, animated display, and texture dictionary support.
-
-![Prestige Badges1](https://i.postimg.cc/mrgwWjYK/fulllist1.png)
-![Prestige Badges2](https://i.postimg.cc/Pq54nyWB/fulllist2.png)
-
----
-
-## Admin Management
-Admins can add/remove points, set prestige levels, and reset players.
-
-Configured via permissions in `config.lua`.
-
----
-
-## Leaderboards
-Prestige leaderboard integrated via Ox_Lib menu.  
-Displays top players dynamically.
-
----
-
-## Full Sync
-Server broadcast ensures prestige levels, buffs, and titles are synced in real time.
-
----
-
-
-## Developer Notes
-
- Fully standalone but integrates with core frameworks  
-- Exports allow developers to extend features without modifying core logic  
-- Buffs and rewards systems are intentionally open for customization  
-
----
-
-## Developer Tips
-
-* Always ensure `GetPrimaryIdentifier(source)` returns valid identifiers (`steam:`, `license:`, etc.).
-* Use `EnsurePlayerDataServer` only internally.
-* Hook this system with your own XP/leveling logic and UI displays.
-* Add persistence by implementing JSON saving in `SaveProgression()`.
+* Stage 1: Base Health, Speed, Damage
+* Stage 2+: Incremental buffs applied automatically per XP + upgrades
+* Upgrades modify base stats dynamically
 
 
 ---
-
-## Server Exports Reference
-
-```lua
-exports["mobz-prestiged"]:GetLevel_sv("steam:110000112345678")
-exports["mobz-prestiged"]:AddKill_sv(identifier, false)
-exports["mobz-prestiged"]:AddBuff_sv(identifier, "damage_boost", "🔥 Damage Boost")
+```
+| Stage | Health | Speed | Damage |
+|-------|--------|-------|--------|
+| 1     | 1000   | 1.0x  | 1.0x   |
+| 2     | 1200   | 1.1x  | 1.2x   |
+| 3     | 1500   | 1.2x  | 1.5x   |
 ```
 
-Full list includes:
-- Core Data Functions
-- Basic Getters
-- Modifiers
-- Buff System
-- Achievements & Titles
-- Visuals & Prestige Info
-- Multipliers
-- Leaderboards
-- Data Sync
-- Developer Tips
+> These charts are fully configurable in `Config.lua` for server customization.
 
-(See full code in API Sever Full Reference)
+----
 
 
 ### 🧩 API Server Full Reference
@@ -181,77 +274,7 @@ Full list includes:
 
 ---
 
-## Client Exports Reference
-
-Client-side API mirrors the server version for UI and local effects.
-
-```lua
-exports["mobz-prestiged"]:AddKill_cl(id, false)
-exports["mobz-prestiged"]:AddBuff_cl(id, "speed_boost", "🏎️ Speed Boost")
-exports["mobz-prestiged"]:ClearBuffs_cl(id)
-```
-
-(See full code in the API Client Full Reference)
-
-### 🧩 API Client Full Reference
-[![Client Exports](https://img.shields.io/badge/💻_Client_Exports-27ae60?style=for-the-badge)](exports/README.md#client-side)
-
----
-
-## PrestigeAPI Advanced Usage
-
-```lua
-local PrestigeAPI = exports["mobz-prestiged"]:PrestigeAPI()
-local data = PrestigeAPI.GetFullStats("license:1234567890abcdef")
-PrestigeAPI.AddCash("license:1234567890abcdef", 500)
-PrestigeAPI.UpdateTokens("license:1234567890abcdef")
-
-```
-
-Supports dynamic updates for cash, XP, reputation, tokens, and titles.
-
 [![🛡️ Main Source](https://img.shields.io/badge/🛡️%20Main%20Source-e32614?style=for-the-badge)](main-source/README.md)
-
----
-
-# Advanced Usage	Custom API integration & expansion	Advanced 
-
-##### example:
-
-[![🧮 Metadata Stats](https://img.shields.io/badge/🧮_Metadata_stats-1437e3?style=for-the-badge)](metadata-stats/README.md)
-
----
-
-## Player Stats Reference
-
-| Category | Key | Description | Example |
-|-----------|-----|-------------|----------|
-| Core | level | Player level | 4 |
-| Core | prestige | Prestige rank | 1 |
-| Combat | kills | Player kills | 50 |
-| Combat | npcKills | NPC kills | 15 |
-| Economy | cash | Player balance | 1200 |
-| Reputation | reputationTitles | Titles unlocked | ["Novice","Apprentice"] |
-| Exploration | distanceTraveled | Distance traveled | 15240 |
-
-(Full table continues in All Stats.)
-
-[![📈 all Stats](https://img.shields.io/badge/📈_All-Stats-e81798?style=for-the-badge)](player-stats/README.md)
-
----
-
-## ⚗️ Examples how to use:
-
-[![⚗️ Exports Exmpales](https://img.shields.io/badge/⚗️_Exports-Exmpales-33e817?style=for-the-badge)](export-examples/README.md)
-
-
----
-
-## Notes and Best Practices
->> Always use `EnsurePlayerDataServer()` before editing data  
->> Save changes via `SavePlayer()`  
->> Tokens are derived automatically from level  
->> Other scripts can expand stats freely  
 
 
 ---
