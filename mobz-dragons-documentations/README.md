@@ -267,7 +267,7 @@ ensure mobz-dragons
 # Installation Guide
 
 
- * [![Installation Guide](https://img.shields.io/badge/🧩__Installation_Guide-2980b9?style=for-the-badge)](exports/README.md#Installation_Guide)
+ * [![Installation Guide](https://img.shields.io/badge/🧩__Installation_Guide-2980b9?style=for-the-badge)](installation/README.md#Installation_Guide)
 
 
 ---
