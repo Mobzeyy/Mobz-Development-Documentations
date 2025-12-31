@@ -239,10 +239,8 @@ ensure mobz-dragons
 4. Configure dragon items, stats, XP, and animations in `config.lua`
 5. Restart server
 
- * [![Installation Guide](https://img.shields.io/badge/🧩__Installation_Guide-2980b9?style=for-the-badge)](installation/README.md#Installation_Guide)
-
 * ⚙️ Installation Guide
-[![Installation](https://img.shields.io/badge/⚙️_Installation-00b894?style=for-the-badge)](installation/README.md)
+ * [![Installation Guide](https://img.shields.io/badge/⚙️__Installation_Guide-2980b9?style=for-the-badge)](installation/README.md#Installation_Guide)
 
 ---
 
