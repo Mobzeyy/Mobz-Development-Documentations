@@ -49,7 +49,7 @@
 |------------|----------------|---------|
 | ⚙️ **Installation** | Please follow the installation steps carefully to ensure proper setup.| [Installation Steps](installation/README.md) |
 | 🏠 **Main Docs** | Overview of all features, setup & structure | [Open Main Docs](README.md#features) |
-| 🧩 **API Docs** | Full developer reference for server & client exports | [Go to API Docs](exports/README.md) |
+| 🧩 **Controls Summary** | Action / Key / Control | Notes    | [Go to Controls Summary](README.md#ControlsSummary) |
 | 🖥️ Server Exports | API functions for server-side scripts | [View Server Exports](exports/README.md#server-side) |
 | 💻 Client Exports | API functions for client-side scripts | [View Client Exports](exports/README.md#client-side) |
 | 📊 **Player Stats** | Trackable stats, progression & dynamic updates | [View Stats](player-stats/README.md) |
@@ -121,32 +121,6 @@
 
 ---
 
-### 🛠 Admin & Server Features
-# Admin & Server Features
-
-* Server-authoritative dragon vitals & stats
-* Automatic hunger and health drain via server tick
-* Admin-friendly dragon spawning, stage reset, and XP addition
-* Mounted dragon tracking per player
-* Full database persistence: health, hunger, XP, upgrades, stage
-
---- 
-
-## 🔧 Controls Summary
-# Controls Summary
-
-| Action           | Key / Control | Notes                               |
-| ---------------- | ------------- | ----------------------------------- |
-| Forward          | W             | Moves dragon forward (ground & air) |
-| Back / Descend   | S             | Stop movement / descent             |
-| Takeoff          | SPACE         | Launch dragon if hunger > threshold |
-| Speed Up / Down  | 1 / 3         | Adjust flight speed                 |
-| Gestures         | W/A/S/D       | Animated gestures while flying      |
-| Mount / Dismount | E (example)   | Attach or detach dragon from player |
-
-> ⚠️ Hunger < 15 → Dragon cannot take off
-
----
 
 ## 🏗 Configurable Options
 # Configurable Options
@@ -200,29 +174,34 @@
 * Customize feeding and abilities for optimal performance
 * Experience a fully immersive dragon companion system synced across the server
 
----
-
-## 📌 Installation
-# Installation
-1. Copy the `mobz-dragons` resource to your server resources folder
-2. Ensure dependencies are installed: `ox_lib`, `mobz-dependencies`, `MySQL-async`
-3. Add to server.cfg:
-
-```cfg
-ensure mobz-dependencies
-ensure mobz-dragons
-```
-
-4. Configure dragon items, stats, XP, and animations in `config.lua`
-5. Restart server
 
 ---
+### 🛠 Admin & Server Features
+# Admin & Server Features
 
-## 📄 Notes
-# Notes
-* Fully **multiplayer-safe**: All stats, vitals, and mounts are synced via server events
-* Designed for **high performance**, using async DB calls and server-side ticks
-* Compatible with **QB-Core, ESX, Ox-Inventory**
+* Server-authoritative dragon vitals & stats
+* Automatic hunger and health drain via server tick
+* Admin-friendly dragon spawning, stage reset, and XP addition
+* Mounted dragon tracking per player
+* Full database persistence: health, hunger, XP, upgrades, stage
+
+--- 
+
+## 🔧 Controls Summary
+# Controls Summary
+
+| Action           | Key / Control | Notes                               |
+| ---------------- | ------------- | ----------------------------------- |
+| Forward          | W             | Moves dragon forward (ground & air) |
+| Back / Descend   | S             | Stop movement / descent             |
+| Takeoff          | SPACE         | Launch dragon if hunger > threshold |
+| Speed Up / Down  | 1 / 3         | Adjust flight speed                 |
+| Gestures         | W/A/S/D       | Animated gestures while flying      |
+| Mount / Dismount | E (example)   | Attach or detach dragon from player |
+
+> ⚠️ Hunger < 15 → Dragon cannot take off
+
+
 
 ---
 
@@ -268,15 +247,30 @@ Mounted? --> Yes: Hunger drains per tick --> Hunger < threshold? --> Apply Healt
 
 > These charts are fully configurable in `Config.lua` for server customization.
 
-----
+---
 
 
-### 🧩 API Server Full Reference
-[![Server Exports](https://img.shields.io/badge/🖥️_Server_Exports-2980b9?style=for-the-badge)](exports/README.md#server-side)
+## 📌 Installation
+# Installation
+1. Copy the `mobz-dragons` resource to your server resources folder
+2. Ensure dependencies are installed: `ox_lib`, `mobz-dependencies`, `MySQL-async`
+3. Add to server.cfg:
+
+```cfg
+ensure mobz-dependencies
+ensure mobz-dragons
+```
+
+4. Configure dragon items, stats, XP, and animations in `config.lua`
+5. Restart server
 
 ---
 
-[![🛡️ Main Source](https://img.shields.io/badge/🛡️%20Main%20Source-e32614?style=for-the-badge)](main-source/README.md)
+## 📄 Notes
+# Notes
+* Fully **multiplayer-safe**: All stats, vitals, and mounts are synced via server events
+* Designed for **high performance**, using async DB calls and server-side ticks
+* Compatible with **QB-Core, ESX, Ox-Inventory**
 
 
 ---
@@ -284,12 +278,6 @@ Mounted? --> Yes: Hunger drains per tick --> Hunger < threshold? --> Apply Healt
 ## 🚀 Quick Access
 
 <div align="center">
-
-[![API Server](https://img.shields.io/badge/API-Server%20Exports-2980b9?style=for-the-badge)](exports/README.md#server-side)
-[![API Client](https://img.shields.io/badge/API-Client%20Exports-27ae60?style=for-the-badge)](exports/README.md#client-side)
-[![All Stats](https://img.shields.io/badge/Stats-All%20Stats-e81798?style=for-the-badge)](player-stats/README.md)
-[![Config Tables](https://img.shields.io/badge/Tables-Config%20Data-orange?style=for-the-badge)](table-stats/README.md)
-[![All Exports](https://img.shields.io/badge/All-Exports%20Data-yellow?style=for-the-badge)](all-exports-table/README.md)
 
 ---
 
