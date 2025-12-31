@@ -14,7 +14,7 @@
 | 📁 Script | 📝 Description | 🔗 Link |
 |------------|----------------|---------|
 | 🏠 **Mobz Prestiged** | The Ultimate Prestige, XP, and Progression Framework for FiveM | [Open Main Docs](mobz-prestiged-documentations/README.md) |
-
+| 🐲 **Mobz Dragons**   | Companion System    | [Open Main Docs](mobz-dragons-documentations/README.md) |
 ---
 
 ## 🧾 About Mobz Development
