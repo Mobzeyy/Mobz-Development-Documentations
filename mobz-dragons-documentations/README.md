@@ -1,4 +1,3 @@
-###### top of page
 
 <div align="center">
 
@@ -8,17 +7,19 @@
 ---
 
 # 🐉 Mobz Dragons - FiveM Dragon Companion System
-**Version:** 2.x
 
-**Author:** [mobz]
+--- 
 
-**Frameworks Supported:** QB-Core, ESX, Ox-Inventory
-
-**Dependencies:** ox_lib, mobz-dependencies, MySQL
+######**Version:** 2.x
+###### **Author:** [mobz]
+###### **Frameworks Supported:** QB-Core, ESX, Ox-Inventory
+###### **Dependencies:** ox_lib, mobz-dependencies, MySQL
 
 ---
 
 ## A fully-featured dragon companion system for FiveM servers, with advanced stats, flying, combat, and growth mechanics. Designed for **immersive gameplay**, **multiplayer sync**, and **server-authoritative persistence**.
+
+---
 
 </div>
 
@@ -35,7 +36,7 @@
 
 ---
 
-## 📦 Features Overview
+### 📦 Features Overview
 # Overview
 
 
@@ -96,7 +97,7 @@
 ---
 
 
-## 🏗 Configurable Options
+### 🏗 Configurable Options
 # Configurable Options
 
  **DragonVitals**
@@ -123,7 +124,7 @@
 
 ---
 
-## 💾 Database Structure
+### 💾 Database Structure
 # Database Structure
 * `mobz_dragons` – stores dragon stats, health, hunger, XP, stage, and unique key
 * `mobz_dragon_upgrades` – stores applied upgrades per dragon
@@ -131,7 +132,7 @@
 
 ---
 
-## ⚡ Advanced Features
+### ⚡ Advanced Features
 # Advanced Features
 * **Server-authoritative mechanics** for true multiplayer consistency
 * **Dynamic dragon stats** per stage with upgrades applied automatically
@@ -141,7 +142,7 @@
 
 ---
 
-## 🎮 Player Experience
+### 🎮 Player Experience
 # Player Experience
 * Own, ride, and grow your dragon companion
 * Train your dragon to fly higher, fight harder, and survive longer
@@ -161,7 +162,7 @@
 
 --- 
 
-## 🔧 Controls Summary
+### 🔧 Controls Summary
 # Controls Summary
 
 | Action           | Key / Control | Notes                               |
@@ -179,7 +180,7 @@
 
 ---
 
-## 📊 Advanced Visuals & Flowcharts
+### 📊 Advanced Visuals & Flowcharts
 # Advanced Visuals & Flowcharts
 
 For a quick visual overview:
@@ -224,7 +225,7 @@ Mounted? --> Yes: Hunger drains per tick --> Hunger < threshold? --> Apply Healt
 ---
 
 
-## 📌 Installation
+### 📌 Installation
 # Installation
 1. Copy the `mobz-dragons` resource to your server resources folder
 2. Ensure dependencies are installed: `ox_lib`, `mobz-dependencies`, `MySQL-async`
@@ -238,17 +239,14 @@ ensure mobz-dragons
 4. Configure dragon items, stats, XP, and animations in `config.lua`
 5. Restart server
 
-# Installation Guide
-
-
  * [![Installation Guide](https://img.shields.io/badge/🧩__Installation_Guide-2980b9?style=for-the-badge)](installation/README.md#Installation_Guide)
 
- ### ⚙️ Installation Guide
+* ⚙️ Installation Guide
 [![Installation](https://img.shields.io/badge/⚙️_Installation-00b894?style=for-the-badge)](installation/README.md)
 
 ---
 
-## 📄 Notes
+### 📄 Notes
 # Notes
 * Fully **multiplayer-safe**: All stats, vitals, and mounts are synced via server events
 * Designed for **high performance**, using async DB calls and server-side ticks
@@ -257,7 +255,7 @@ ensure mobz-dragons
 
 ---
 
-## 🚀 Quick Access
+### 🚀 Quick Access
 
 <div align="center">
 
@@ -287,7 +285,7 @@ ensure mobz-dragons
 
  ---
 
-## 🧠 About Mobz Development
+### 🧠 About Mobz Development
 ##### mobz team
 
 > **Mobz Development** is powered by a shared vision — building modular, open-source frameworks that connect every part of gameplay.  
@@ -301,7 +299,7 @@ A special thank you to **Mez**, who’s always had my back since day one. 💜
 
 ---
 
-## 🔒 License & Distribution (Commercial / Tebex)
+### 🔒 License & Distribution (Commercial / Tebex)
 
 **Important:** This resource is sold as a paid, **closed-source** product through **Tebex**.  
 It is **not** released under an open-source license.
