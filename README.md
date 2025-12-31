@@ -5,10 +5,6 @@
 
 ---
 
-[![Mobz Prestiged Documentations](https://img.shields.io/badge/Mobz%20Prestiged-Documentations-orange?style=for-the-badge)](https://github.com/Mobzeyy/Mobz-Development-Documentations/tree/main/mobz-prestiged-documentations)
-
----
-
 ## 📦 Script Documentations
 
 | 📁 Script | 📝 Description | 🔗 Link |
