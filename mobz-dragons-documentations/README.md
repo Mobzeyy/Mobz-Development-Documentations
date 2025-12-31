@@ -26,8 +26,8 @@
 
 | 📁 Section | 📝 Description | 🔗 Link |
 |------------|----------------|---------|
-| ⚙️ **Installation** | Please follow the installation steps carefully to ensure proper setup.| [Installation Steps](installation/README.md) |
-| 🏠 **Main Docs** | Overview of all features, setup & structure | [Open Main Docs](README.md#features) |
+| ⚙️ **Installation** | Installation steps to ensure proper setup.| [Installation Steps](installation/README.md) |
+| 🏠 **Main Docs** | Overview of all features, setup & structure | [Open Main Docs](README.md#Overview) |
 | 🧩 **Controls Summary** | Action / Key / Control | [Go to Controls Summary](README.md#Controls-Summary) |
 | 📋 **Table Reference** | Data table | [Go to Table](README.md#Stats-Upgrade-Chart) |
 | 🧑‍💻 **Developers** | Credits, license & authors | [Meet the Team](README.md#mobz-team) |
@@ -38,7 +38,6 @@
 ## 📦 Features Overview
 # Overview
 
----
 
 ### 🐲 Dragon Lifecycle
  # Mount & Dismount System
