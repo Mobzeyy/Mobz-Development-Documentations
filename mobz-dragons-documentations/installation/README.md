@@ -28,7 +28,7 @@
 ```
 ensure ox_lib
 ensure mobz-dependencies
-ensure mobz-prestiged
+ensure mobz-dragons
 ```
 ---
 
