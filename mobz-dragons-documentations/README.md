@@ -28,7 +28,7 @@
 |------------|----------------|---------|
 | ⚙️ **Installation** | Please follow the installation steps carefully to ensure proper setup.| [Installation Steps](installation/README.md) |
 | 🏠 **Main Docs** | Overview of all features, setup & structure | [Open Main Docs](README.md#features) |
-| 🧩 **Controls Summary** | Action / Key / Control | Notes    | [Go to Controls Summary](README.md#ControlsSummary) |
+| 🧩 **Controls Summary** | Action / Key / Control | [Go to Controls Summary](README.md#ControlsSummary) |
 | 🖥️ Server Exports | API functions for server-side scripts | [View Server Exports](exports/README.md#server-side) |
 | 💻 Client Exports | API functions for client-side scripts | [View Client Exports](exports/README.md#client-side) |
 | 📊 **Player Stats** | Trackable stats, progression & dynamic updates | [View Stats](player-stats/README.md) |
