@@ -9,8 +9,11 @@
 
 # 🐉 Mobz Dragons - FiveM Dragon Companion System
 **Version:** 2.x
+
 **Author:** [mobz]
+
 **Frameworks Supported:** QB-Core, ESX, Ox-Inventory
+
 **Dependencies:** ox_lib, mobz-dependencies, MySQL
 
 ---
